@@ -2256,7 +2256,7 @@
   "respuesta": "b",
   "explicacion": {
     "concepto": "Agregación y compresión de datos en WSN",
-    "porque_correcta": "El temario define *compressive sensing* como un muestreo al azar y no continuo para ahorrar transmisiones, enviando menos paquetes. :contentReference[oaicite:0]{index=0}",
+    "porque_correcta": "El temario define *compressive sensing* como un muestreo al azar y no continuo para ahorrar transmisiones, enviando menos paquetes. ",
     "porque_erroneas": {
       "a": "No es un método de cifrado.",
       "c": "No incrementa el intervalo, reduzca muestras.",
@@ -2276,7 +2276,7 @@
   "respuesta": "a",
   "explicacion": {
     "concepto": "Micro-OS para WSN",
-    "porque_correcta": "La lista del PDF incluye LiteOS junto a TinyOS, Contiki, SOS, etc., como OS ultraligeros para sensores. :contentReference[oaicite:1]{index=1}",
+    "porque_correcta": "La lista del PDF incluye LiteOS junto a TinyOS, Contiki, SOS, etc., como OS ultraligeros para sensores. ",
     "porque_erroneas": {
       "b": "Ubuntu Core no se menciona y es mucho más pesado.",
       "c": "FreeRTOS no figura en la lista del temario.",
@@ -2296,7 +2296,7 @@
   "respuesta": "b",
   "explicacion": {
     "concepto": "Ética y privacidad en AmI/AAL",
-    "porque_correcta": "La lista de ‘¿Qué se espera de los Ambientes Inteligentes?’ incluye actuar sin exigir expertise al usuario. :contentReference[oaicite:2]{index=2}",
+    "porque_correcta": "La lista de ‘¿Qué se espera de los Ambientes Inteligentes?’ incluye actuar sin exigir expertise al usuario. ",
     "porque_erroneas": {
       "a": "Contradice el requisito de privacidad y seguridad.",
       "c": "El principio dice ‘sin forzar cambios en rutinas’.",
