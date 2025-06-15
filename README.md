@@ -1,6 +1,6 @@
 #  CUIA-UGR-examen
 Examen interactivo (tipo test) de **Computación Ubicua e Inteligencia Ambiental**  
-
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ## ¿Qué hace este proyecto?  
 `quiz.py` lanza un cuestionario en terminal para repasar la asignatura:  
 1. `preguntas.json` (125 preguntas máx).  
