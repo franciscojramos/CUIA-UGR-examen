@@ -104,6 +104,9 @@ def main():
     print("\n🏁  Resultados finales")
     print(f"   🏆  Aciertos: {aciertos}")
     print(f"   ❌  Fallos: {len(falladas)}")
+    porcentaje = (aciertos / num) * 100
+    nota10 = round(porcentaje / 10, 2)
+    print(f"   📊  Nota: {porcentaje:.1f}%  —  {nota10}/10")
 
     # Repetición de falladas
     if falladas:
