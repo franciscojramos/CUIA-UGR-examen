@@ -27,7 +27,7 @@ git clone hhttps://github.com/franciscojramos/CUIA-UGR-examen)
 python3 quiz.py
 ```
 ## Autor
-**Francisco José Ramos Moya** – código y curación de preguntas.
+**Francisco José Ramos Moya** – código y organización de preguntas.
 
 ## Créditos
 Algunas preguntas se basan en apuntes de **martasw99** subidos a *Wuolah*.
