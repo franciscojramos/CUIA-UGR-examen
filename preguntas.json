@@ -2784,8 +2784,206 @@
       },
       "resumen": "La gran tendencia: del foco en la máquina al foco en el usuario (y su contexto)."
     }
+  },,
+  {
+    "pregunta": "Según el informe ISTAG (2001), ¿cuál de los siguientes NO es un requisito para los entornos de Inteligencia Ambiental?",
+    "opciones": {
+      "a": "Hardware muy poco intrusivo.",
+      "b": "Infraestructura de comunicaciones transparente.",
+      "c": "Redes de dispositivos estáticas y centralizadas.",
+      "d": "Interfaces de usuario naturales."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Requisitos ISTAG",
+      "porque_correcta": "ISTAG exige redes dinámicas, distribuidas y transparentes; una red \"estática y centralizada\" viola esa idea. :contentReference[oaicite:0]{index=0}",
+      "porque_erroneas": {
+        "a": "El hardware \"muy poco obstrusivo\" es un requisito explícito. :contentReference[oaicite:1]{index=1}",
+        "b": "La transparencia de las comunicaciones figura entre los requisitos. :contentReference[oaicite:2]{index=2}",
+        "d": "Las IU naturales también aparecen listadas por ISTAG. :contentReference[oaicite:3]{index=3}"
+      },
+      "resumen": "ISTAG quiere entornos distribuidos, invisibles y centrados en el usuario; lo opuesto (red estática y central) rompe ese objetivo."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad principal de la plataforma europea AALIANCE?",
+    "opciones": {
+      "a": "Regular la privacidad de los asistentes virtuales.",
+      "b": "Investigar aplicaciones de Ambient Assisted Living mediante TIC.",
+      "c": "Normalizar protocolos de comunicación para sensores biomédicos.",
+      "d": "Financiar únicamente proyectos de robótica doméstica."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "AALIANCE",
+      "porque_correcta": "AALIANCE se describe como la plataforma de innovación europea dedicada al estudio del AAL apoyado en TIC. :contentReference[oaicite:4]{index=4}",
+      "porque_erroneas": {
+        "a": "La privacidad es un aspecto, pero no la finalidad central.",
+        "c": "No se limita a protocolos biomédicos.",
+        "d": "AALIANCE no se reduce a financiar robótica; cubre todo el ecosistema AAL."
+      },
+      "resumen": "AALIANCE = marco de investigación/innovación en Ambient Assisted Living dentro de la UE."
+    }
+  },
+  {
+    "pregunta": "En la clasificación sobre dónde ‘vive’ la IA dentro de un sistema, la opción en la que cada nodo realiza localmente su propio razonamiento se denomina…",
+    "opciones": {
+      "a": "IA en la red.",
+      "b": "IA embebida.",
+      "c": "IA distribuida cliente-servidor.",
+      "d": "IA asistida en la nube."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "IA embebida",
+      "porque_correcta": "Las diapositivas la definen como ‘meter las técnicas de IA dentro de los nodos’, dándoles autonomía y baja latencia. :contentReference[oaicite:5]{index=5}",
+      "porque_erroneas": {
+        "a": "IA en la red se ejecuta sólo en nodos fijos centrales.",
+        "c": "Distribuida apoya el cómputo en servidores auxiliares.",
+        "d": "La presentación no usa ese término y la nube implica dependencia de conectividad."
+      },
+      "resumen": "Embebida = IA local, autonómica; evita cuellos de botella."
+    }
+  },
+  {
+    "pregunta": "Las diapositivas describen Inteligencia Ambiental como…",
+    "opciones": {
+      "a": "Una única tecnología plug-and-play.",
+      "b": "Una combinación de varias tecnologías que cooperan.",
+      "c": "Un sinónimo de realidad virtual inmersiva.",
+      "d": "Un estándar de comunicaciones para redes ZigBee."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Definición IA",
+      "porque_correcta": "El texto afirma que ‘puede verse como una combinación de tecnologías’ (visión, PLN, ML…). :contentReference[oaicite:6]{index=6}",
+      "porque_erroneas": {
+        "a": "La propia diapositiva rechaza que sea ‘una sola entidad’.",
+        "c": "RV es sólo una posible interfaz, no la esencia.",
+        "d": "ZigBee es un protocolo; IA va mucho más allá."
+      },
+      "resumen": "IA = orquesta tecnológica centrada en las personas."
+    }
+  },
+  {
+    "pregunta": "¿Qué expectativa NO figura entre las que ISTAG atribuye a un ‘ambiente inteligente’?",
+    "opciones": {
+      "a": "Reconocer cuándo puede ayudar al usuario.",
+      "b": "Garantizar la privacidad y la seguridad de la información.",
+      "c": "Forzar cambios drásticos en las rutinas del usuario para optimizar el entorno.",
+      "d": "Actuar de acuerdo con las preferencias y necesidades de la persona."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Expectativas del usuario",
+      "porque_correcta": "ISTAG subraya que NO debe forzar cambios; justo lo contrario, se adapta sin imponer. :contentReference[oaicite:7]{index=7}",
+      "porque_erroneas": {
+        "a": "Figura literalmente en la lista de expectativas. :contentReference[oaicite:8]{index=8}",
+        "b": "Privacidad y seguridad son requisitos clave. :contentReference[oaicite:9]{index=9}",
+        "d": "Preferencias y necesidades del usuario son guía esencial. :contentReference[oaicite:10]{index=10}"
+      },
+      "resumen": "Ambiente inteligente = ayuda sin obligar; si ‘impone’ rutinas deja de ser amigable."
+    }
+  },
+  {
+    "pregunta": "El principio «el usuario manda y el ordenador obedece» subraya principalmente la característica de…",
+    "opciones": {
+      "a": "Transparencia tecnológica.",
+      "b": "Autoconservación del sistema.",
+      "c": "Control humano sobre la decisión final.",
+      "d": "Escalabilidad de la infraestructura de red."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Principio de Control Humano",
+      "porque_correcta": "Las slides cierran la lista de expectativas explicitando que el usuario siempre mantiene la autoridad. :contentReference[oaicite:11]{index=11}",
+      "porque_erroneas": {
+        "a": "La transparencia facilita el uso, pero no es el punto de ‘mando’.",
+        "b": "Autoconservación es una ley secundaria de Asimov, distinta al control.",
+        "d": "Escalabilidad es un requisito técnico de red, no de interacción."
+      },
+      "resumen": "IA sí, pero con ‘Human-in-the-loop’ — última palabra = persona."
+    }
+  },
+  {
+    "pregunta": "Un ejemplo claro de escenario ‘Ambient Assisted Living’ (AAL) sería…",
+    "opciones": {
+      "a": "Un asistente virtual que recomienda vídeos virales.",
+      "b": "Un hogar equipado con sensores que vigilan caídas de personas mayores y avisan al cuidador.",
+      "c": "Un sistema de trading algorítmico de alta frecuencia.",
+      "d": "Una base de datos de códigos postales."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Escenarios AAL",
+      "porque_correcta": "AAL se centra en soporte a la vida independiente y salud en entornos cotidianos; la vigilancia de caídas es caso emblemático.",
+      "porque_erroneas": {
+        "a": "Recomendar entretenimiento no es cuidado asistido.",
+        "c": "Trading financiero no pertenece al dominio AAL.",
+        "d": "Un dataset aislado no aporta asistencia vivencial."
+      },
+      "resumen": "AAL = tecnología que cuida y prolonga la autonomía (salud, seguridad, confort)."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes componentes NO es citado en la diapositiva como parte de la ‘combinación tecnológica’ para lograr Inteligencia Ambiental?",
+    "opciones": {
+      "a": "Visión por computador.",
+      "b": "Procesado de lenguaje natural.",
+      "c": "Redes 5G milimétricas (mmWave).",
+      "d": "Aprendizaje automático."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Tecnologías IA",
+      "porque_correcta": "La diapositiva menciona visión, PLN y ML, pero no alude explícitamente a 5G mmWave. :contentReference[oaicite:12]{index=12}",
+      "porque_erroneas": {
+        "a": "Está listada literalmente. :contentReference[oaicite:13]{index=13}",
+        "b": "También aparece. :contentReference[oaicite:14]{index=14}",
+        "d": "ML/Aprendizaje automático figura como punto clave. :contentReference[oaicite:15]{index=15}"
+      },
+      "resumen": "IA ≠ solo red; necesita percepción + comprensión + aprendizaje."
+    }
+  },
+  {
+    "pregunta": "Según las diapositivas, ¿qué desventaja potencial presenta la solución de ‘IA embebida’ frente a otras distribuciones de la inteligencia?",
+    "opciones": {
+      "a": "Genera latencias elevadas.",
+      "b": "Requiere nodos con mayor potencia de cálculo y puede perder comportamiento colaborativo.",
+      "c": "Obliga a un canal de comunicación de muy alta velocidad constante.",
+      "d": "Centraliza el razonamiento en pocos nodos fijos."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Desventaja IA embebida",
+      "porque_correcta": "La diapositiva advierte que cada nodo debe ser más potente y que el sistema puede volverse ‘fragmentado’. :contentReference[oaicite:16]{index=16}",
+      "porque_erroneas": {
+        "a": "La latencia se reduce, no aumenta.",
+        "c": "Embebida minimiza la necesidad de ancho de banda.",
+        "d": "Eso describe IA en la red, no embebida."
+      },
+      "resumen": "Autonomía local → hardware más caro y riesgo de islas de decisión."
+    }
+  },
+  {
+    "pregunta": "¿Qué organismo europeo introdujo en 2001 el marco conceptual de Inteligencia Ambiental tal y como lo usamos hoy?",
+    "opciones": {
+      "a": "ENISA (European Union Agency for Cybersecurity).",
+      "b": "ISTAG (Information Society Technologies Advisory Group).",
+      "c": "ETSI (European Telecommunications Standards Institute).",
+      "d": "EASA (European Union Aviation Safety Agency)."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "ISTAG",
+      "porque_correcta": "Las slides citan a ISTAG como grupo asesor de la Comisión Europea que ‘da forma’ al concepto de IA en 2001. :contentReference[oaicite:17]{index=17}",
+      "porque_erroneas": {
+        "a": "ENISA se ocupa de ciberseguridad, no de IA.",
+        "c": "ETSI norma telecomunicaciones; no define IA.",
+        "d": "EASA cubre aviación."
+      },
+      "resumen": "ISTAG = ‘padre’ institucional de la Inteligencia Ambiental en la UE."
+    }
   }
-
-
-
+  
 ]
