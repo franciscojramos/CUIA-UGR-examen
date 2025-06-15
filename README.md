@@ -21,7 +21,7 @@ Examen interactivo (tipo test) de **Computación Ubicua e Inteligencia Ambiental
 > 🔁  ¿Repetir solo las falladas? (s/n):
 > ```
 
-##Instalación  
+## Instalación  
 ```bash
 git clone hhttps://github.com/franciscojramos/CUIA-UGR-examen)
 python3 quiz.py
