@@ -1,0 +1,2511 @@
+[
+  {
+    "pregunta": "La interpretación de los fenómenos que se producen en un colectivo de personas producidos por la actividad de un usuario se emplea en...",
+    "opciones": {
+      "a": "Análisis de modelos de inteligencia artiﬁcial.",
+      "b": "Percepción e interpretación de contexto.",
+      "c": "Diseño de sistemas de interacción hombre-máquina.",
+      "d": "Redes de sensores móviles."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Diseño de sistemas de interacción H-M",
+      "porque_correcta": "Analiza el impacto colectivo de acciones individuales para mejorar la interfaz.",
+      "porque_erroneas": {
+        "a": "Se centra en modelos IA, no en fenómenos de grupo.",
+        "b": "Trata el entorno, no el colectivo humano derivado de un usuario.",
+        "d": "Las redes de sensores no analizan fenómenos sociales."
+      },
+      "resumen": "El estudio de fenómenos colectivos provocados por un usuario pertenece a la disciplina HCI."
+    }
+  },
+  {
+    "pregunta": "La autonomía en un sistema de computación ubicua se refiere a la capacidad de percibir el contexto y actuar sin autorización explícita del usuario.",
+    "opciones": {
+      "a": "El resto de afirmaciones son falsas.",
+      "b": "La autonomía no es una propiedad de la computación ubicua.",
+      "c": "Esa definición corresponde a la consciencia de contexto pasiva.",
+      "d": "La autonomía permite que la interacción sea más implícita."
+    },
+    "respuesta": "a",
+    "explicacion": {
+      "concepto": "Autonomía ≈ autocontrol",
+      "porque_correcta": "Las otras opciones malinterpretan autonomía o su relación con UC.",
+      "porque_erroneas": {
+        "b": "La autonomía sí es propiedad clave.",
+        "c": "Confunde autonomía con simple percepción pasiva.",
+        "d": "No describe la definición dada."
+      },
+      "resumen": "Autonomía = autocontrol; lo descrito enunciado ≠ definición exacta, por eso las demás son falsas."
+    }
+  },
+  {
+    "pregunta": "En una red de sensores con idéntico hardware inalámbrico...",
+    "opciones": {
+      "a": "La distancia geográfica es la más precisa porque no hay callejones sin salida.",
+      "b": "La métrica geográfica siempre supera al número de saltos.",
+      "c": "La distancia geográfica es la mejor si cada nodo tiene GPS.",
+      "d": "Las demás afirmaciones son falsas."
+    },
+    "respuesta": "d",
+    "explicacion": {
+      "concepto": "Métricas de enrutamiento",
+      "porque_correcta": "Ninguna de las tres condiciones previas es universalmente cierta.",
+      "porque_erroneas": {
+        "a": "Puede haber topologías con callejones.",
+        "b": "No siempre resulta mejor.",
+        "c": "Depende de la precisión/energía del GPS."
+      },
+      "resumen": "Con idéntico HW no hay garantía de que la métrica geográfica sea la óptima."
+    }
+  },
+  {
+    "pregunta": "El método más habitual para verificar la identidad de un usuario es la contraseña cuyo hash se almacena.",
+    "opciones": {
+      "a": "Verdadero; si se olvida la contraseña se recupera del hash.",
+      "b": "Falso; el hash sirve para integridad, no identidad.",
+      "c": "Verdadero; además se puede 'saltear' (añadir sal) la contraseña.",
+      "d": "Falso; lo normal son datos biométricos."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Autenticación clásica",
+      "porque_correcta": "Usuario/contraseña + hash con sal es práctica común.",
+      "porque_erroneas": {
+        "a": "El hash no permite recuperar la clave.",
+        "b": "El hash se usa también en autenticación.",
+        "d": "La biometría aún no es la más común."
+      },
+      "resumen": "Se guarda sólo el hash y, mejor, con sal para evitar rainbow-tables."
+    }
+  },
+{
+  "pregunta": "La calidad del propósito estimado depende de la cantidad y calidad de la información del contexto que se perciba:",
+  "opciones": {
+    "a": "Verdadero, pero solo en caso del contexto físico.",
+    "b": "Falso, el propósito depende de la situación, no del contexto.",
+    "c": "Verdadero, además el resultado será más útil si se emplean las técnicas de I.A. adecuadas.",
+    "d": "Falso, no importa la cantidad de información sino las técnicas de I.A. empleadas para la estimación del propósito."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Propósito ↔ contexto",
+    "porque_correcta": "Más y mejor contexto ➜ situación más fiable ➜ propósito estimado con menor error.",
+    "porque_erroneas": {
+      "a": "No solo el contexto físico importa; también humano y virtual.",
+      "b": "El propósito se infiere precisamente desde la situación (derivada del contexto).",
+      "d": "La I.A. ayuda, pero sin datos adecuados nada infiere bien."
+    },
+    "resumen": "Calidad + cantidad de contexto = mejor inferencia de propósito."
+  }
+},
+{
+  "pregunta": "El clustering en redes de sensores inalámbricos...",
+  "opciones": {
+    "a": "...siempre se realiza agrupando los nodos según un criterio geográfico y seleccionando una estación base entre los miembros de cada grupo.",
+    "b": "...siempre se realiza seleccionando al azar varias estaciones base y asignando a cada una de ellas los nodos más cercanos.",
+    "c": "...requiere que antes de la implantación se seleccione una estación base por cada grupo.",
+    "d": "Las demás aﬁrmaciones son falsas."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Clustering pre-planeado",
+    "porque_correcta": "Muchos protocolos de clustering asumen sink/head fijo pre-implantación.",
+    "porque_erroneas": {
+      "a": "No tiene por qué ser siempre geográfico.",
+      "b": "No siempre se hace aleatorio.",
+      "d": "Existe al menos una opción verdadera."
+    },
+    "resumen": "Antes de desplegar se decide el nodo cabecera del clúster."
+  }
+},
+{
+  "pregunta": "¿Cómo debemos actuar ante la ambigüedad contextual?",
+  "opciones": {
+    "a": "Las demás afirmaciones son falsas.",
+    "b": "Preguntando al usuario por la decisión correcta.",
+    "c": "Eliminando los factores que introducen ambigüedad y recalculando sin ellos.",
+    "d": "Usando sistemas que suponen que el mundo no es ambiguo o que sean capaces de tratar con la ambigüedad."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Gestión de ambigüedad",
+    "porque_correcta": "Solo los sistemas preparados para ambigüedad (o que la ignoran deliberadamente) funcionan.",
+    "porque_erroneas": {
+      "a": "Hay, al menos, una opción correcta.",
+      "b": "Volver al usuario rompe la transparencia de la UC.",
+      "c": "Eliminar datos puede degradar la inferencia."
+    },
+    "resumen": "Diseña el sistema para resolver o asumir la ambigüedad."
+  }
+},
+{
+  "pregunta": "Las propiedades básicas y adicionales de un sistema de computación ubicua son: existencia de un sistema distribuido que interconecta todos los elementos, énfasis en una interacción hombre-máquina explícita, uso intensivo de técnicas de consciencia de contexto y empleo de Inteligencia Artificial.",
+  "opciones": {
+    "a": "Las propiedades indicadas son las básicas y adicionales de los sistemas de computación ubicua.",
+    "b": "Todas las propiedades mencionadas son correctas pero hay una propiedad adicional que no se ha indicado.",
+    "c": "Falta una propiedad y de las mencionadas una es falsa.",
+    "d": "Solo se han indicado las propiedades básicas. Falta indicar las propiedades adicionales."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Props básicas vs adicionales",
+    "porque_correcta": "Falta la autonomía y se menciona interacción explícita (debería ser más natural).",
+    "porque_erroneas": {
+      "a": "Incluye una propiedad incorrecta (interacción explícita).",
+      "b": "Dice que todo está bien salvo una extra: no cierto.",
+      "d": "Se nombran básicas y también IA (adicional)."
+    },
+    "resumen": "Una básica está mal y falta una adicional."
+  }
+},
+{
+  "pregunta": "Interacción hombre-máquina más natural y consciencia de contexto son propiedades de la computación ubicua pero no se necesitan la una a la otra para ser efectivas:",
+  "opciones": {
+    "a": "Verdadero, la interacción hombre→máquina se produce primero, después actúa la consciencia de contexto para decidir una acción y después se produce la interacción máquina→hombre para mostrar los resultados.",
+    "b": "Falso, para que se produzca la interacción hombre-máquina implícita es necesario que el usuario tenga un modelo mental del sistema (contexto humano).",
+    "c": "Verdadero, tanto interacción hombre-máquina implícita como consciencia de contexto siguen cursos paralelos independientes.",
+    "d": "Las demás aﬁrmaciones son falsas"
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Propiedades interdependientes",
+    "porque_correcta": "Ambas propiedades se potencian y son interdependientes; las otras explicaciones son incorrectas.",
+    "porque_erroneas": {
+      "a": "Secuencia incorrecta de procesos.",
+      "b": "Modelo mental es parte de consciencia de contexto.",
+      "c": "No son independientes."
+    },
+    "resumen": "La naturalidad suele requerir contexto; por tanto el resto es falso."
+  }
+},
+{
+  "pregunta": "En las redes de sensores...",
+  "opciones": {
+    "a": "...siempre se realizan conexiones inalámbricas desde nodos que puede que no permanezcan estáticos.",
+    "b": "...son frecuentes las conexiones inalámbricas desde nodos que puede que no permanezcan estáticos.",
+    "c": "...sólo se realizan conexiones inalámbricas en las estaciones base.",
+    "d": "...solo se realizan conexiones inalámbricas cuando los nodos a conectar no permanecen estáticos."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Movilidad en WSN",
+    "porque_correcta": "En muchas aplicaciones los nodos (o el medio) pueden moverse.",
+    "porque_erroneas": {
+      "a": "\"Siempre\" es demasiado fuerte.",
+      "c": "Los nodos intermedios también se comunican inalámbricamente.",
+      "d": "También se conectan nodos fijos."
+    },
+    "resumen": "La movilidad es frecuente pero no obligatoria."
+  }
+},
+{
+  "pregunta": "¿A qué puede deberse que el usuario cometa un número elevado de errores en la interacción con un dispositivo?",
+  "opciones": {
+    "a": "A que el usuario se ve abrumado por todos los sistemas que debe controlar.",
+    "b": "A una incorrecta interpretación del contexto que provoca errores en la inferencia contextual.",
+    "c": "A un pobre diseño de interfaz de usuario.",
+    "d": "A una incorrecta implementación de la autonomía en dicho dispositivo."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Usability first",
+    "porque_correcta": "Diseño UI deficiente = más errores de interacción.",
+    "porque_erroneas": {
+      "a": "Abrumarse ≠ causa principal en este contexto.",
+      "b": "El enunciado habla de errores del usuario, no del sistema.",
+      "d": "La autonomía afecta a la acción del sistema, no a los errores del usuario al interactuar."
+    },
+    "resumen": "La mayoría de errores vienen de una mala interfaz."
+  }
+},
+{
+  "pregunta": "En una red de sensores...",
+  "opciones": {
+    "a": "...los nodos captan algunas propiedades físicas, las procesan y transmiten a la estación base.",
+    "b": "...todos los nodos disponen siempre de los mismos sensores.",
+    "c": "...los nodos captan propiedades físicas y las transmiten fuera de la red.",
+    "d": "El resto de afirmaciones son falsas."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Funcionamiento de WSN",
+    "porque_correcta": "Ni (a) ni (b) ni (c) son universalmente ciertas.",
+    "porque_erroneas": {
+      "a": "No todos procesan antes de enviar; a veces solo reenvían.",
+      "b": "Hardware heterogéneo es habitual.",
+      "c": "La salida externa suele pasar por un sink, no por cada nodo."
+    },
+    "resumen": "Las afirmaciones dadas simplifican en exceso la realidad."
+  }
+},
+{
+  "pregunta": "Los protocolos de acceso al medio específicos para redes de sensores…",
+  "opciones": {
+    "a": "...establecen periodos de actividad y descanso para reducir el consumo energético y aumentar las colisiones.",
+    "b": "...establecen periodos de actividad y descanso estáticos antes del despliegue.",
+    "c": "...establecen periodos de actividad y descanso para reducir el consumo energético y las colisiones.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "MAC duty-cycling",
+    "porque_correcta": "Duty-cycling ahorra energía y reduce contención.",
+    "porque_erroneas": {
+      "a": "El objetivo es reducir colisiones, no aumentarlas.",
+      "b": "Suelen ser adaptativos, no estáticos.",
+      "d": "Existe una respuesta correcta."
+    },
+    "resumen": "MACs para WSN = ahorro energético + menos colisiones."
+  }
+},
+{
+  "pregunta": "Los tipos de contexto son:",
+  "opciones": {
+    "a": "Físico, humano y virtual, que son los primarios, y el relativo que es el secundario.",
+    "b": "Físico y humano que son los primarios y virtual que es secundario.",
+    "c": "Físico, humano y virtual, pudiendo ser tanto primarios como secundarios.",
+    "d": "Primario, intermedio y secundario."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Taxonomía de contexto",
+    "porque_correcta": "Cada uno puede ser primario (medido) o secundario (derivado).",
+    "porque_erroneas": {
+      "a": "El virtual también puede ser primario.",
+      "b": "Virtual no siempre secundario.",
+      "d": "Clasificación incorrecta."
+    },
+    "resumen": "Contexto = físico + humano + virtual (primario/ secundario)."
+  }
+},
+{
+  "pregunta": "Las amenazas a la seguridad de un sistema de computación ubicua son:",
+  "opciones": {
+    "a": "Problemas con la confidencialidad, integridad y disponibilidad frente a usuarios no autorizados.",
+    "b": "Problemas con la confidencialidad, integridad y disponibilidad frente a usuarios autorizados.",
+    "c": "Problemas con la confidencialidad, integridad, disponibilidad y autorización.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Tríada CIA",
+    "porque_correcta": "Las tres propiedades se amenazan desde actores no autorizados.",
+    "porque_erroneas": {
+      "b": "Los autorizados se suponen legítimos.",
+      "c": "La autorización no es parte clásica de la tríada.",
+      "d": "Hay una opción correcta."
+    },
+    "resumen": "Confidencialidad, integridad y disponibilidad = ejes de la seguridad."
+  }
+}
+,
+{
+  "pregunta": "Entre los mecanismos básicos empleados por los protocolos de enrutamiento en redes de sensores…",
+  "opciones": {
+    "a": "...convergecast equivale a múltiples transmisiones unicast a la estación base.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "...unicast equivale a múltiples transmisiones convergecast a la estación base.",
+    "d": "...nunca, jamás, en ninguna circunstancia, se emplea broadcast debido a su alto consumo energético."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Técnicas de enrutamiento WSN",
+    "porque_correcta": "Convergecast ≠ unicast, se usa broadcast en casos controlados: por tanto todas las demás frases son incorrectas.",
+    "porque_erroneas": {
+      "a": "Convergecast es many-to-one, no varios unicast.",
+      "c": "Invierte los términos: unicast es 1-to-1.",
+      "d": "Broadcast sí se usa (p. ej., descubrimiento de rutas)."
+    },
+    "resumen": "Las tres afirmaciones son inexactas; la opción correcta indica eso mismo."
+  }
+},
+{
+  "pregunta": "Tipo de aprendizaje que se ajusta progresivamente con el objetivo de maximizar las recompensas recibidas.",
+  "opciones": {
+    "a": "Aprendizaje no supervisado.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Aprendizaje supervisado.",
+    "d": "Aprendizaje por refuerzo."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Reinforcement Learning",
+    "porque_correcta": "En RL el agente aprende por recompensas/castigos.",
+    "porque_erroneas": {
+      "a": "No supervisado busca patrones, no recompensas.",
+      "b": "Hay una respuesta correcta (RL).",
+      "c": "Supervisado aprende de ejemplos etiquetados."
+    },
+    "resumen": "RL = maximizar recompensa mediante interacción con el entorno."
+  }
+},
+{
+  "pregunta": "Los problemas de la comunicación explícita del contexto se pueden subsanar…",
+  "opciones": {
+    "a": "...mejorando el lenguaje hasta eliminar todos los problemas.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "...pero aun así seguirán existiendo dificultades importantes.",
+    "d": "...mejorando el lenguaje natural y gestual hasta que se solucionen por completo."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Limitaciones comunicación explícita",
+    "porque_correcta": "Incluso mejorando UI/UX la comunicación explícita sigue siendo costosa e intrusiva.",
+    "porque_erroneas": {
+      "a": "Imposible suprimir todos los problemas.",
+      "b": "Hay opción correcta (c).",
+      "d": "Promete imposibles: no se resuelven ‘por completo’."
+    },
+    "resumen": "Mejorar lenguaje ayuda, pero los problemas persisten."
+  }
+},
+{
+  "pregunta": "¿Por qué no pueden coexistir sensibilidad al contexto activa y pasiva en el mismo sistema?",
+  "opciones": {
+    "a": "Porque la pasiva bloquea a la activa por definición.",
+    "b": "Porque si se usa la activa ya no tiene sentido la pasiva.",
+    "c": "Porque necesitan sistemas independientes sin acoplamiento.",
+    "d": "Sí pueden coexistir; el contexto humano determina cuál usar."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Activa + pasiva = complementarias",
+    "porque_correcta": "Un sistema puede alternar notificación (pasiva) y acción automática (activa) según el usuario y la situación.",
+    "porque_erroneas": {
+      "a": "No hay bloqueo mutuo.",
+      "b": "La pasiva puede informar antes de actuar.",
+      "c": "Pueden compartir infraestructura sensora."
+    },
+    "resumen": "Coexistencia es posible y deseable; decide el contexto humano."
+  }
+},
+{
+  "pregunta": "Son algunas de las características de una red de sensores:",
+  "opciones": {
+    "a": "Las demás afirmaciones son falsas.",
+    "b": "Los nodos se distribuyen en entornos que pueden ser hostiles.",
+    "c": "Ciertos nodos destacados tienen los mismos componentes para simplificar la gestión de los nodos base.",
+    "d": "Suele haber un número bajo de nodos con un comportamiento adaptable a cambios en el entorno."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Características WSN",
+    "porque_correcta": "Despliegues en selvas, campos de batalla, volcanes, etc.",
+    "porque_erroneas": {
+      "a": "Hay enunciado válido.",
+      "c": "Los nodos cabecera suelen ser más potentes, no idénticos.",
+      "d": "El número de nodos suele ser alto, no bajo."
+    },
+    "resumen": "Entorno hostil es una característica típica."
+  }
+},
+{
+  "pregunta": "Un problema complejo de afrontar en la interacción hombre-máquina implícita es:",
+  "opciones": {
+    "a": "La interacción implícita sólo plantea problemas triviales.",
+    "b": "La determinación del contexto humano no puede ser muy compleja.",
+    "c": "La construcción del modelo del sistema puede necesitar mucho tiempo.",
+    "d": "Determinar el contexto humano nunca distrae al usuario."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Coste de modelado del sistema",
+    "porque_correcta": "Diseñar y entrenar modelos que interpreten el contexto lleva esfuerzo considerable.",
+    "porque_erroneas": {
+      "a": "Es precisamente retador.",
+      "b": "Contexto humano es de lo más complejo.",
+      "d": "La captura de contexto puede ser intrusiva."
+    },
+    "resumen": "Modelar el sistema/usuario es costoso y lento."
+  }
+},
+{
+  "pregunta": "Si se garantiza la confidencialidad entonces no tendremos problemas de integridad:",
+  "opciones": {
+    "a": "Verdadero, aunque la confidencialidad no cubre la disponibilidad.",
+    "b": "Falso, la integridad es imposible de garantizar.",
+    "c": "Falso, podemos no leer un mensaje pero sí modificarlo sin ser detectados.",
+    "d": "Verdadero, sin leer no se puede alterar nada."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Confidencialidad ≠ integridad",
+    "porque_correcta": "El atacante puede corromper datos cifrados aunque no los entienda.",
+    "porque_erroneas": {
+      "a": "Confundir propiedades de seguridad.",
+      "b": "Integridad se puede garantizar (hash, MAC).",
+      "d": "Ver falso argumento ‘sin leer no modifico’."
+    },
+    "resumen": "Cada propiedad de seguridad requiere su propio mecanismo."
+  }
+},
+{
+  "pregunta": "Los mecanismos de garantía de integridad...",
+  "opciones": {
+    "a": "No modifican el mensaje salvo la firma digital, que lo cifra.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Añaden información redundante sin modificar el mensaje original.",
+    "d": "Modifican el mensaje original cifrándolo para preservar la integridad."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Hash/MAC/signature",
+    "porque_correcta": "Hash, MAC, firma → añaden código aparte del contenido.",
+    "porque_erroneas": {
+      "a": "La firma digital no cifra el mensaje, sólo firma.",
+      "b": "Hay opción verdadera.",
+      "d": "Cifrar es confidencialidad, no integridad."
+    },
+    "resumen": "Integridad = mensaje intacto + código aparte para verificar."
+  }
+},
+{
+  "pregunta": "La HCI moderna...",
+  "opciones": {
+    "a": "…estudia sistemas que tratan de satisfacer las variadas necesidades humanas.",
+    "b": "...excluye la psicología para lograr resultados más objetivos.",
+    "c": "Las demás afirmaciones son falsas.",
+    "d": "...considera la interacción ajena a las emociones."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Visión holística HCI",
+    "porque_correcta": "HCI integra factores cognitivos, sociales y emocionales.",
+    "porque_erroneas": {
+      "b": "La psicología es central en HCI.",
+      "c": "Existe afirmación correcta (a).",
+      "d": "Las emociones sí son consideradas."
+    },
+    "resumen": "HCI = comprender y satisfacer necesidades humanas diversas."
+  }
+},
+{
+  "pregunta": "Proceso mediante el cual un sistema consciente de contexto obtiene datos del entorno y determina la situación del usuario",
+  "opciones": {
+    "a": "Inferencia de propósito.",
+    "b": "Inferencia situacional.",
+    "c": "Inferencia contextual.",
+    "d": "Aprendizaje por refuerzo."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Inferencia contextual",
+    "porque_correcta": "Es el paso que va de contexto bruto → situación.",
+    "porque_erroneas": {
+      "a": "Inferencia de propósito viene después de la situación.",
+      "b": "No es término habitual; se usa ‘situación’ como resultado.",
+      "d": "RL es técnica de aprendizaje."
+    },
+    "resumen": "Inferencia contextual = traducir sensores en ‘situaciones’."
+  }
+}
+,
+{
+  "pregunta": "El grado de \"integración\", es decir, la capacidad de incorporar capacidades computacionales en objetos cotidianos, es un factor que limita la movilidad de dichos objetos en un ambiente de computación ubicua:",
+  "opciones": {
+    "a": "Falso, no existe dicha limitación.",
+    "b": "Verdadero, por lo que en un ambiente de computación ubicua es muy importante alcanzar un compromiso adecuado entre integración y movilidad.",
+    "c": "La movilidad no es una característica pertinente en un sistema de computación ubicua por lo que no tiene sentido la afirmación y no es ni verdadera ni falsa.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Integración vs. movilidad",
+    "porque_correcta": "En la definición académica se considera que la integración no restringe la movilidad: los objetos pueden ser móviles aun con electrónica embebida.",
+    "porque_erroneas": {
+      "b": "Da por hecho una limitación que no es tal.",
+      "c": "Movilidad sí es relevante para computación ubicua.",
+      "d": "Hay una opción verdadera (a)."
+    },
+    "resumen": "No hay relación causal necesaria entre alto grado de integración y menor movilidad."
+  }
+},
+{
+  "pregunta": "Aunque en la mayoría de las ocasiones los términos “Computación Ubicua” y “Computación Pervasiva” son usados con el mismo significado, existe una sutil diferencia entre ambas:",
+  "opciones": {
+    "a": "La diferencia radica en el grado de autonomía, que es mayor en la Computación Pervasiva.",
+    "b": "La diferencia radica en el grado de integración, que es mayor en la Computación Pervasiva.",
+    "c": "La diferencia radica en el grado de expansión de las redes de sensores, que es mayor en la Computación Ubicua.",
+    "d": "La diferencia radica en el grado de movilidad, que es mayor en la Computación Ubicua."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Ubicua ≠ Pervasiva (movilidad)",
+    "porque_correcta": "La literatura indica que la ubicua apunta a más movilidad (múltiples dispositivos portables) y la pervasiva suele estar ligada a entornos fijos (smart-kitchen, smart-room).",
+    "porque_erroneas": {
+      "a": "El matiz normalmente no es la autonomía.",
+      "b": "Integración elevada aparece en ambos términos.",
+      "c": "La ‘expansión’ de sensores no define la distinción."
+    },
+    "resumen": "Clave: computación ubicua = más movilidad; pervasiva = más estática."
+  }
+},
+{
+  "pregunta": "Existen dos categorías de contexto:",
+  "opciones": {
+    "a": "Las demás afirmaciones son falsas.",
+    "b": "Activo o pasivo, en función de que se desee que el sistema actúe o se limite a facilitar información.",
+    "c": "Ubicuo o pervasivo, dependiendo del grado de movilidad del entorno.",
+    "d": "Primario o secundario, siendo el secundario más importante ya que se deduce del primario."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Clasificación estándar",
+    "porque_correcta": "Las respuestas b-c-d presentan clasificaciones parciales o sesgadas; ninguna coincide con la categorización primaria/-secundaria aceptada (d la invierte).",
+    "porque_erroneas": {
+      "b": "Activo/pasivo se refiere a ‘sensibilidad’, no a tipos de contexto.",
+      "c": "Ubicuo/pervasivo no es tipo de contexto.",
+      "d": "Secundario no es ‘más importante’."
+    },
+    "resumen": "Cuando las opciones ofrecidas son incorrectas, la correcta es afirmar que todas son falsas."
+  }
+},
+{
+  "pregunta": "La interacción implícita en un sistema de computación ubicua hace innecesarias las interfaces de usuario porque el usuario no realiza interacción consciente:",
+  "opciones": {
+    "a": "Verdadero, aunque será necesario que la IA sustituya al humano en dichas interacciones no realizadas.",
+    "b": "Falso, aunque el usuario no actúe, el sistema sí debe interactuar para exponer resultados.",
+    "c": "Falso, se necesitan UI adaptadas al entorno ubicuo.",
+    "d": "Verdadero, si la percepción de contexto es suficientemente precisa."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "UI en interacción implícita",
+    "porque_correcta": "Se siguen necesitando interfaces, pero deben ser discretas, multimodales y adaptadas.",
+    "porque_erroneas": {
+      "a": "Suprime al usuario en exceso.",
+      "b": "Acierta en parte pero no menciona la necesidad de rediseñar UI.",
+      "d": "La precisión contextual no suprime la UI."
+    },
+    "resumen": "La interacción implícita reduce la UI explícita, no la elimina."
+  }
+},
+{
+  "pregunta": "Aunque la interacción humana puede ser bidireccional, desde el punto de vista de una máquina dicha interacción es siempre unidireccional (entrada o salida, pero no ambas):",
+  "opciones": {
+    "a": "Pasapalabra.",
+    "b": "Falso.",
+    "c": "La afirmación no tiene sentido y no es ni verdadera ni falsa.",
+    "d": "Verdadero."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Bidireccionalidad HCI",
+    "porque_correcta": "La mayoría de dispositivos modernos combinan entrada y salida (p. ej., pantallas táctiles, asistentes de voz).",
+    "porque_erroneas": {
+      "a": "No contesta.",
+      "c": "La frase es evaluable: es falsa.",
+      "d": "Ignora dispositivos I/O integrados."
+    },
+    "resumen": "En HCI actual, la comunicación hombre-máquina es plenamente bidireccional."
+  }
+},
+{
+  "pregunta": "¿Por qué el empleo de inteligencia artificial mejora la capacidad de consciencia de contexto?",
+  "opciones": {
+    "a": "Porque permite crear modelos de usuario que mejoran el contexto virtual.",
+    "b": "Porque determina el propósito con menor precisión.",
+    "c": "Porque mejora la agregación de información de contexto para inferir la situación.",
+    "d": "Porque percibe con mayor certeza la interacción implícita."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "IA ↔ Context-awareness",
+    "porque_correcta": "Métodos de IA fusionan, filtran y clasifican datos de sensores aportando situaciones coherentes.",
+    "porque_erroneas": {
+      "a": "Cierto pero parcial; no explica la ganancia principal.",
+      "b": "Menor precisión es un retroceso.",
+      "d": "La percepción de interacción es consecuencia, no causa principal."
+    },
+    "resumen": "IA ayuda a combinar datos heterogéneos y construir la ‘situación’."
+  }
+},
+{
+  "pregunta": "El protocolo de puzle trata de preservar la disponibilidad…",
+  "opciones": {
+    "a": "Emitiendo por canales cambiantes según una función pseudoaleatoria.",
+    "b": "Ofreciendo al cliente una prueba que requiere esfuerzo computacional.",
+    "c": "Bloqueando cualquier saturación de recursos del sistema y del canal.",
+    "d": "Solicitando al usuario un pago simbólico."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Puzzle/HashCash DoS-mitigation",
+    "porque_correcta": "La ‘computational puzzle’ hace que un atacante gaste CPU antes de poder inundar el servicio.",
+    "porque_erroneas": {
+      "a": "Esa técnica es ‘frequency hopping’.",
+      "c": "El puzle no protege el canal, sólo el recurso servidor.",
+      "d": "No implica micropagos sino computación."
+    },
+    "resumen": "Cliente resuelve un puzle → evita peticiones masivas baratas."
+  }
+},
+{
+  "pregunta": "En un entorno de computación ubicua la interacción explícita con los múltiples dispositivos es compleja. Una de las siguientes afirmaciones NO justifica esa complejidad. ¿Cuál?",
+  "opciones": {
+    "a": "Se pueden afrontar varias tareas a la vez y éstas pueden estar compartidas.",
+    "b": "Hay involucrados múltiples dispositivos y múltiples usuarios.",
+    "c": "Las actividades pueden desarrollarse en múltiples entornos físicos.",
+    "d": "La dificultad de estimar correctamente el propósito crece exponencialmente con el número de dispositivos."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Fuentes de complejidad en UI ubicua",
+    "porque_correcta": "La estimación de propósito está más ligada a la parte implícita; la complejidad explícita nace de tareas, lugares y usuarios, no de propósito.",
+    "porque_erroneas": {
+      "a": "Multi-tarea compartida añade complejidad.",
+      "b": "Múltiples usuarios/dispositivos complican la coordinación.",
+      "c": "Cambiar de entorno físico añade variabilidad."
+    },
+    "resumen": "La opción d se refiere a contexto implícito, no a interacción explícita."
+  }
+},
+{
+  "pregunta": "¿Cuáles son los problemas a los que se enfrenta la inferencia contextual?",
+  "opciones": {
+    "a": "Incertidumbre y ambigüedad provocadas, entre otras causas, por sensores defectuosos.",
+    "b": "Incertidumbre y ambigüedad debidas a sobrecarga de sensores redundantes.",
+    "c": "Incertidumbre y ambigüedad causadas por sensores con precisión ilimitada.",
+    "d": "Incertidumbre, ambigüedad y deslocalización contextual."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Retos inferencia contextual",
+    "porque_correcta": "Lecturas erróneas, ruido y falta de precisión generan incertidumbre y ambigüedad.",
+    "porque_erroneas": {
+      "b": "La redundancia suele reducir incertidumbre.",
+      "c": "‘Precisión ilimitada’ no existe y no genera ambigüedad.",
+      "d": "Añade un término (deslocalización) que no es central."
+    },
+    "resumen": "La raíz principal es la calidad limitada de los datos de sensores."
+  }
+},
+{
+  "pregunta": "Si podemos permitirnos comprar todo el hardware necesario, ¿dónde conviene que resida la IA en un entorno de computación ubicua?",
+  "opciones": {
+    "a": "IA distribuida.",
+    "b": "IA embebida en cada nodo.",
+    "c": "IA remota en la nube.",
+    "d": "IA enrutada exclusivamente en la red."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "IA embebida",
+    "porque_correcta": "Procesar localmente reduce latencia y permite decisiones autónomas en cada nodo.",
+    "porque_erroneas": {
+      "a": "Distribuida es viable pero más compleja y costosa en comunicaciones.",
+      "c": "Remota depende de conectividad constante.",
+      "d": "‘En la red’ sin potencia en nodos deja cuellos de botella."
+    },
+    "resumen": "Con presupuesto suficiente, embebida = la solución más robusta y reactiva."
+  }
+}
+,
+{
+  "pregunta": "Tipo de entorno en el que se desenvuelve un agente inteligente que juega al ajedrez usando un tiempo límite para la realización de las jugadas:",
+  "opciones": {
+    "a": "Estático",
+    "b": "Hiperestático",
+    "c": "Semidinámico",
+    "d": "Dinámico"
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Entorno semidinámico",
+    "porque_correcta": "El tablero no cambia entre turnos (estático), pero el reloj avanza (dinámico); la mezcla de ambos se denomina semidinámico.",
+    "porque_erroneas": {
+      "a": "Ignora la variable tiempo.",
+      "b": "‘Hiperestático’ no es clasificación habitual.",
+      "d": "Dinámico implicaría cambios ajenos al agente incluso sin límite de tiempo."
+    },
+    "resumen": "Tiempo transcurre mientras el mundo permanece estable ⇒ semidinámico."
+  }
+},
+{
+  "pregunta": "La firma digital no garantiza la confidencialidad:",
+  "opciones": {
+    "a": "Verdadero, lo que garantiza es la integridad.",
+    "b": "Verdadero, lo que garantiza es la integridad solo si se conocen las claves pública y privada.",
+    "c": "Falso, el cifrado asimétrico sí garantiza confidencialidad.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Integridad vs. confidencialidad",
+    "porque_correcta": "Firmar implica hash + clave privada para autenticar contenido; el mensaje sigue en claro.",
+    "porque_erroneas": {
+      "b": "Añade una condición irrelevante: integridad no depende de conocer la clave privada.",
+      "c": "Confunde firma (integridad) con cifrado (confidencialidad).",
+      "d": "Existe una afirmación verdadera (a)."
+    },
+    "resumen": "Firma = integridad & autenticidad, no privacidad."
+  }
+},
+{
+  "pregunta": "¿Por qué la existencia de múltiples dispositivos con capacidades computacionales en un entorno de computación ubicua hace necesario el uso de mecanismos de interacción implícita?",
+  "opciones": {
+    "a": "No tiene relación con la interacción implícita.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Porque el usuario puede abrumarse al necesitar controlar tantos sistemas.",
+    "d": "Los mecanismos necesarios son los explícitos, no los implícitos."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Sobrecarga del usuario",
+    "porque_correcta": "Delegar parte del control al sistema mediante interacción implícita evita fatigar al usuario con decenas de interfaces.",
+    "porque_erroneas": {
+      "a": "Subestima la complejidad de coordinar muchos dispositivos.",
+      "b": "Existe una afirmación válida (c).",
+      "d": "Contradice el principio de reducir carga cognitiva."
+    },
+    "resumen": "Más dispositivos ⇒ más potencial de saturar la atención ⇒ se recurre a interacción implícita."
+  }
+},
+{
+  "pregunta": "¿Por qué no es adecuado suministrar explícitamente la información del contexto para enriquecer la comunicación entre ordenadores y personas?",
+  "opciones": {
+    "a": "Sí es adecuado porque mejora la determinación de la situación.",
+    "b": "Porque garantiza transparencia y naturalidad.",
+    "c": "Porque es el único modo de enriquecer la comunicación.",
+    "d": "Porque esa comunicación de contexto siempre estará influenciada por la visión subjetiva del usuario."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Limitaciones de la comunicación explícita",
+    "porque_correcta": "El usuario filtra y deforma el contexto; el sistema pierde exactitud y naturalidad.",
+    "porque_erroneas": {
+      "a": "Implica sobrecarga cognitiva y rompe naturalidad.",
+      "b": "La transparencia disminuye al pedir datos al usuario.",
+      "c": "No es el único camino: la captación implícita es la meta."
+    },
+    "resumen": "El contexto explícito es subjetivo y antinatural; mejor percibirlo implícitamente."
+  }
+},
+{
+  "pregunta": "Contexto y situación:",
+  "opciones": {
+    "a": "Las demás afirmaciones son falsas.",
+    "b": "La situación es el resultado de agregar los datos del contexto.",
+    "c": "La situación tiene un nivel de abstracción más bajo que el contexto.",
+    "d": "El contexto se obtiene resumiendo situaciones previas."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Context → Situación",
+    "porque_correcta": "Se combinan múltiples piezas de contexto (lugar, tiempo, identidad…) para describir una situación concreta.",
+    "porque_erroneas": {
+      "a": "Existe una afirmación correcta (b).",
+      "c": "La situación es MÁS abstracta, no menos.",
+      "d": "El flujo es inverso: contexto → situación."
+    },
+    "resumen": "Contexto = datos; situación = interpretación agregada."
+  }
+},
+{
+  "pregunta": "Mecanismos de garantía de la integridad:",
+  "opciones": {
+    "a": "Los MAC garantizan identidad e integridad.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Los códigos HASH aseguran al 100 % que un mensaje no se ha modificado.",
+    "d": "La firma digital garantiza integridad e identidad si además se mantiene la confidencialidad."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Firma digital",
+    "porque_correcta": "Firma = hash + clave privada → integridad + autenticación; la confidencialidad debe añadirse aparte (cifrado).",
+    "porque_erroneas": {
+      "a": "MAC autentica origen compartido, no identidad pública.",
+      "b": "Hay opción verdadera.",
+      "c": "Hash sin clave no evita ataques de reemplazo."
+    },
+    "resumen": "Firma digital provee integridad + identidad; confidencialidad requiere cifrado."
+  }
+},
+{
+  "pregunta": "Existen diversos modos de representar el contexto; uno de ellos es:",
+  "opciones": {
+    "a": "Lenguajes de marcado capaces de manejar información incompleta aunque con formalismo débil.",
+    "b": "Grafos con gran gestión de información incompleta y excelente soporte distribuido.",
+    "c": "Pares clave/valor muy expresivos y eficientes.",
+    "d": "Ontologías con escalabilidad ilimitada."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "XML/JSON como representación",
+    "porque_correcta": "Lenguajes de marcado son flexibles para datos heterogéneos pero no tan rígidos como la lógica formal.",
+    "porque_erroneas": {
+      "b": "Grafos gestionan mal la información incompleta.",
+      "c": "Clave/valor es poco expresivo.",
+      "d": "Ontologías escalan peor por su complejidad."
+    },
+    "resumen": "Marcado = buena flexibilidad, formalismo moderado."
+  }
+},
+{
+  "pregunta": "Un buen diseño de la interfaz de usuario garantiza que un usuario no tendrá problemas para las interacciones explícitas en un entorno ubicuo:",
+  "opciones": {
+    "a": "Verdadero, si existe buena consciencia de contexto.",
+    "b": "Ni verdadero ni falso; no depende del diseño.",
+    "c": "Verdadero.",
+    "d": "Falso."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Limitaciones del ‘buen diseño’",
+    "porque_correcta": "Incluso una UI bien diseñada puede verse sobrepasada por número de dispositivos, tareas y distracciones del entorno ubicuo.",
+    "porque_erroneas": {
+      "a": "Consciencia de contexto ayuda, pero no basta.",
+      "b": "El diseño sí importa, aunque no garantice éxito.",
+      "c": "Garantizar ‘sin problemas’ es demasiado fuerte."
+    },
+    "resumen": "Buen diseño es necesario pero no suficiente en ubicua."
+  }
+},
+{
+  "pregunta": "La disciplina que estudia la interacción hombre-máquina actualmente considera a los usuarios como individuos con capacidades comunes...",
+  "opciones": {
+    "a": "Con capacidad de procesamiento ilimitada.",
+    "b": "Sin ignorar que son personas distintas.",
+    "c": "Las demás afirmaciones son falsas.",
+    "d": "...que usan varios canales de comunicación sin que las emociones les afecten."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Perspectiva HCI moderna",
+    "porque_correcta": "Ninguna opción refleja fielmente la visión actual que combina capacidades comunes y diferencias individuales.",
+    "porque_erroneas": {
+      "a": "Capacidad ilimitada es irreal.",
+      "b": "Afirmación parcialmente cierta pero no completa: mezcla ‘sin ignorar’ con ‘comunes’, crea contradicción.",
+      "d": "Las emociones son cruciales en HCI."
+    },
+    "resumen": "Cuando todas las opciones fallan, la correcta es indicarlo."
+  }
+},
+{
+  "pregunta": "En una red de sensores pueden usarse protocolos de acceso al medio no diseñados específicamente para WSN, por ejemplo:",
+  "opciones": {
+    "a": "CSMA/CA que evita por completo el nodo oculto y expuesto.",
+    "b": "División de frecuencias (FDMA), aunque con bajo rendimiento.",
+    "c": "División temporal (TDMA) sin colisiones garantizadas.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Acceso al medio genérico en WSN",
+    "porque_correcta": "FDMA se ha usado; su eficiencia es baja, pero es válido y no específico de sensores.",
+    "porque_erroneas": {
+      "a": "CSMA no elimina del todo nodo oculto/expuesto.",
+      "c": "TDMA necesita sincronía y aún puede perder ranuras.",
+      "d": "Opción b es correcta."
+    },
+    "resumen": "WSN a veces hereda técnicas de redes clásicas; FDMA es ejemplo real."
+  }
+}
+,
+{
+  "pregunta": "Los protocolos de acceso al medio en redes de sensores tienen como objetivos:",
+  "opciones": {
+    "a": "Maximizar el overhearing y minimizar el consumo energético.",
+    "b": "Minimizar las colisiones y maximizar la transmisión de metadatos.",
+    "c": "Las demás afirmaciones son falsas.",
+    "d": "Minimizar el overhearing y maximizar la transmisión de metadatos."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Objetivos de MAC en WSN",
+    "porque_correcta": "El objetivo real es *minimizar* colisiones, overhearing, metadatos, consumo y latencia, y *maximizar* rendimiento y escalabilidad; ninguna de las otras refleja el conjunto completo.",
+    "porque_erroneas": {
+      "a": "Quiere *maximizar* overhearing (justo lo contrario).",
+      "b": "Olvida consumo energético, overhearing y escalabilidad.",
+      "d": "Quiere maximizar el overhearing, error básico."
+    },
+    "resumen": "Si ninguna opción enumera bien todos los objetivos, se marca «Las demás… son falsas»."
+  }
+},
+{
+  "pregunta": "Tipo de modelo de arquitectura de sistema inteligente que considera que el entorno muestra un comportamiento inteligente:",
+  "opciones": {
+    "a": "Bilateral",
+    "b": "Inteligente",
+    "c": "Ontológico",
+    "d": "Híbrido"
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Modelo bilateral",
+    "porque_correcta": "En la arquitectura bilateral la ‘inteligencia’ se reparte entre agente y entorno, de modo que este último también decide.",
+    "porque_erroneas": {
+      "b": "‘Inteligente’ no es nombre de modelo; es adjetivo.",
+      "c": "El modelo ontológico usa conocimiento explícito, no atribuye inteligencia al entorno.",
+      "d": "El híbrido mezcla otros modelos pero no especifica que el entorno actúe inteligentemente."
+    },
+    "resumen": "Bilateral = entorno colabora de forma activa e ‘inteligente’."
+  }
+},
+{
+  "pregunta": "En una red de sensores los factores fundamentales en la gestión del enlace son:",
+  "opciones": {
+    "a": "Que los paquetes lleguen sin errores y sin pérdidas.",
+    "b": "Que los paquetes lleguen sin pérdidas y sin duplicados.",
+    "c": "Que los paquetes lleguen en orden y sin duplicados.",
+    "d": "Que los paquetes lleguen sin errores y en orden."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Calidad de enlace en WSN",
+    "porque_correcta": "Duplicados y orden son secundarios; lo crítico es no perder datos y que lleguen correctos (sin bit-errors).",
+    "porque_erroneas": {
+      "b": "Ignora los errores de bits.",
+      "c": "Orden irrelevante para la mayoría de sensores.",
+      "d": "Orden no es prioritario."
+    },
+    "resumen": "Integridad + ausencia de pérdidas priman sobre orden y duplicados."
+  }
+},
+{
+  "pregunta": "Red semántica:",
+  "opciones": {
+    "a": "Representación de entidades que se adaptan muy bien al mundo real.",
+    "b": "Representación del conocimiento expresiva pero poco estructurada.",
+    "c": "Representación estructurada pero difícil para inferencia.",
+    "d": "Representación lingüística en la que un grafo refleja conceptos y relaciones."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Semantic network",
+    "porque_correcta": "Una red semántica es un grafo etiquetado de conceptos (nodos) y relaciones (aristas).",
+    "porque_erroneas": {
+      "a": "Demasiado genérica; no menciona grafo.",
+      "b": "Confunde ‘poco estructurada’; una red es bastante estructurada.",
+      "c": "La inferencia en redes semánticas es precisamente su fuerte."
+    },
+    "resumen": "Grafo conceptos-relaciones ⇒ red semántica."
+  }
+},
+{
+  "pregunta": "La garantía de disponibilidad establece:",
+  "opciones": {
+    "a": "Que un usuario autorizado siempre podrá acceder a los servicios a los que tiene derecho.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Que cualquier usuario puede ofrecer servicios al sistema.",
+    "d": "Que el sistema atiende a cualquier usuario en todo momento."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Disponibilidad",
+    "porque_correcta": "La tríada CIA define disponibilidad como el acceso oportuno a recursos para usuarios autorizados.",
+    "porque_erroneas": {
+      "b": "Existe afirmación válida (a).",
+      "c": "Confunde ofrecer con consumir.",
+      "d": "Desatiende el requisito de autorización."
+    },
+    "resumen": "Disponibilidad = servicio activo para quien *está autorizado*."
+  }
+},
+{
+  "pregunta": "El sistema distribuido presente en un entorno de computación ubicua permite ofrecer al usuario múltiples servicios de modo transparente y natural:",
+  "opciones": {
+    "a": "Verdadero; el usuario percibe todo el sistema como un único computador.",
+    "b": "Falso; los problemas de seguridad destruyen la naturalidad.",
+    "c": "Falso; la interacción implícita nada tiene que ver con sistemas distribuidos.",
+    "d": "Verdadero, aunque sin el sistema distribuido la transparencia sería mayor."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Transparencia distribuidora",
+    "porque_correcta": "Ocultar la multiplicidad de nodos es clave de ubicua: ‘una sola máquina invisible’.",
+    "porque_erroneas": {
+      "b": "La seguridad es reto, pero no lo hace imposible.",
+      "c": "La interact. implícita se apoya precisamente en la capa distribuida.",
+      "d": "Sin distribución no habría ubicuidad."
+    },
+    "resumen": "Distribución + transparencia ⇒ sensación de único sistema."
+  }
+},
+{
+  "pregunta": "La psicología es una de las muchas disciplinas de las que se nutre la interacción hombre-máquina:",
+  "opciones": {
+    "a": "Verdadero; estudia fenómenos colectivos de interacción.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Falso; la psicología nada tiene que ver con las máquinas.",
+    "d": "Falso; la HCI solo se apoya en informática y diseño industrial."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Multidisciplinariedad HCI",
+    "porque_correcta": "Ni (a) ni (c) ni (d) describen la realidad completa: la psicología aporta sobre todo *procesos mentales individuales*, no solo colectivos.",
+    "porque_erroneas": {
+      "a": "Limita la psicología al aspecto colectivo.",
+      "c": "Niega una contribución fundamental.",
+      "d": "Reduce en exceso el espectro disciplinar."
+    },
+    "resumen": "Cuando ninguna opción refleja bien la aportación, la correcta es ‘Las demás… son falsas’."
+  }
+},
+{
+  "pregunta": "¿Para garantizar la confidencialidad es recomendable ocultar el algoritmo de cifrado?",
+  "opciones": {
+    "a": "Sí; así controlamos mejor la privacidad de las claves.",
+    "b": "Sí; cuanta menos información tenga el atacante mejor.",
+    "c": "No; un usuario autorizado no podría cifrar si desconoce el algoritmo.",
+    "d": "No; publicar el algoritmo permite auditarlo y centrar la seguridad en las claves."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Principio de Kerckhoffs",
+    "porque_correcta": "La robustez descansa en la clave, no en el secreto del algoritmo; revisión pública detecta fallos.",
+    "porque_erroneas": {
+      "a": "Privacidad de clave ≠ ocultar algoritmo.",
+      "b": "Seguridad por oscuridad es frágil.",
+      "c": "Argumento de usabilidad, no de seguridad; además, usuarios podrían conocerlo públicamente."
+    },
+    "resumen": "Algoritmo abierto, clave secreta."
+  }
+},
+{
+  "pregunta": "El usuario final puede percibir como una amenaza perder el control del sistema:",
+  "opciones": {
+    "a": "Por eso la pérdida de control debe ser paulatina cuando esté abrumado.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Por ello todas las apps deben asumir un ‘usuario estándar’.",
+    "d": "Por ello es vital una correcta percepción del contexto humano."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Confianza y contexto humano",
+    "porque_correcta": "Si el sistema entiende emociones/capacidades del usuario puede dosificar autonomía sin causar rechazo.",
+    "porque_erroneas": {
+      "a": "‘Aprovechar’ el agobio es anti-ético.",
+      "b": "Hay afirmación cierta (d).",
+      "c": "Un único ‘usuario estándar’ ignora diferencias individuales."
+    },
+    "resumen": "Modelar al usuario ayuda a ceder control gradualmente y con confianza."
+  }
+},
+{
+  "pregunta": "Las eras de la computación identificadas por Mark Weiser son:",
+  "opciones": {
+    "a": "Mainframe, PC y Ubicua, distinguidas por velocidad inalámbrica.",
+    "b": "Mainframe, PC y Computación clásica, distinguidas por realidad aumentada.",
+    "c": "Mainframe, PC, Cloud y Ubicua, distinguidas por uso de red.",
+    "d": "Mainframe, PC y Ubicua, distinguidas por la relación uno-muchos entre usuario y ordenador."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Eras Weiser",
+    "porque_correcta": "Mainframe (muchos usuarios → 1 ordenador), PC (1 usuario → 1 ordenador), Ubicua (1 usuario → muchos ordenadores).",
+    "porque_erroneas": {
+      "a": "La clave no es velocidad inalámbrica.",
+      "b": "‘Computación clásica’ no es una era de Weiser.",
+      "c": "Weiser no incluyó explícitamente la nube."
+    },
+    "resumen": "Eras se diferencian por la *multiplicidad* de la relación persona-máquina."
+  }
+}
+,
+{
+  "pregunta": "La disciplina de Interacción Hombre-Máquina estudia la interacción considerando:",
+  "opciones": {
+    "a": "Una actividad implícita del hombre hacia la máquina con mecanismos de interacción bidireccional.",
+    "b": "Una actividad unidireccional del hombre hacia la máquina con mecanismos de interacción implícita.",
+    "c": "Una actividad bidireccional entre hombre y máquina con diversos tipos de interacción implícita.",
+    "d": "Diversos tipos de interacción, estudiados tanto desde el punto de vista del hombre hacia la máquina como de la máquina hacia el hombre."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Definición moderna de HCI",
+    "porque_correcta": "La HCI cubre todo el ciclo de comunicación entre personas y sistemas, en ambos sentidos y con distintos modos (explícitos e implícitos).",
+    "porque_erroneas": {
+      "a": "Reduce la comunicación a implícita y niega salida máquina→humano.",
+      "b": "Unidireccional no refleja la realidad.",
+      "c": "Se queda solo en implícita; falta explícita y otros canales."
+    },
+    "resumen": "HCI = estudio integral de *todas* las formas de interacción bidireccional."
+  }
+},
+{
+  "pregunta": "En la consciencia de contexto podemos afirmar...",
+  "opciones": {
+    "a": "La situación es una descripción de más bajo nivel de las entidades implicadas y su interacción.",
+    "b": "El propósito es el objetivo que persigue el sistema.",
+    "c": "El proceso de inferencia contextual determina el propósito a partir del contexto y situación.",
+    "d": "El contexto es el lugar en que se produce la interacción."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Inferencia contextual",
+    "porque_correcta": "Con datos de contexto se infiere la situación; usando ambos se deduce el propósito/objetivo del usuario.",
+    "porque_erroneas": {
+      "a": "La situación está a *mayor* nivel de abstracción que el contexto bruto.",
+      "b": "El propósito es del **usuario**, no del sistema.",
+      "d": "Contexto ≠ lugar; es mucho más amplio."
+    },
+    "resumen": "Contexto → Situación → Propósito: cadena de inferencia."
+  }
+},
+{
+  "pregunta": "Se puede emplear aprendizaje automático en el proceso de consciencia de contexto:",
+  "opciones": {
+    "a": "Al utilizarse aprendizaje automático las relaciones aprendidas siempre serán fáciles de depurar.",
+    "b": "Los resultados serán bastante intuitivos para el usuario final.",
+    "c": "Es posible aprender el propósito directamente a partir del contexto.",
+    "d": "En general el proceso de aprendizaje será bastante rápido."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "ML en awareness",
+    "porque_correcta": "Modelos supervisados o por refuerzo pueden mapear directamente contexto → propósito, saltándose la etapa intermedia de situación.",
+    "porque_erroneas": {
+      "a": "Las reglas aprendidas suelen ser difíciles de interpretar (‘caja negra’).",
+      "b": "Normalmente el resultado *no* es intuitivo sin visualización especial.",
+      "d": "Puede requerir mucho dato/tiempo; no es garantía."
+    },
+    "resumen": "ML permite inferir propósito sin paso explícito de situación."
+  }
+},
+{
+  "pregunta": "El contexto humano es el más fácil de captar ya que no necesitamos ningún tipo de sensor:",
+  "opciones": {
+    "a": "Falso, es el más difícil de captar.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "No es necesario captar el contexto humano; el usuario lo aporta con sus acciones.",
+    "d": "Verdadero; el propio usuario facilita la información."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Complejidad del contexto humano",
+    "porque_correcta": "Emociones, intenciones y capacidades son intangibles y requieren sensores o inferencia compleja.",
+    "porque_erroneas": {
+      "b": "Existe opción correcta (a).",
+      "c": "Acciones del usuario no cubren completamente su estado interno.",
+      "d": "Contradice la experiencia práctica en ubicua."
+    },
+    "resumen": "Captar ‘lo humano’ es lo más retador de todo el contexto."
+  }
+},
+{
+  "pregunta": "Un agente inteligente cuya misión sea la de conducir un taxi se desenvolverá en un entorno que es:",
+  "opciones": {
+    "a": "Completamente observable y dinámico.",
+    "b": "No determinista y dinámico.",
+    "c": "No determinista y estático.",
+    "d": "Parcialmente observable y determinista."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Clasificación de entornos",
+    "porque_correcta": "Tráfico y peatones generan incertidumbre (no determinista) y el entorno cambia continuamente (dinámico).",
+    "porque_erroneas": {
+      "a": "Imposible observabilidad total en carretera.",
+      "c": "Es dinámico, no estático.",
+      "d": "Ni completamente observable ni determinista."
+    },
+    "resumen": "Conducir = entorno *no determinista* + *dinámico*."
+  }
+},
+{
+  "pregunta": "El posicionamiento por lateración...",
+  "opciones": {
+    "a": "Calcula posición usando el ángulo de llegada de la señal.",
+    "b": "Calcula la posición en base a la distancia a varios nodos de posición conocida.",
+    "c": "Se basa en la potencia recibida frente a la distancia.",
+    "d": "Usa la última posición conocida para predecir la nueva ubicación."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Lateración (trilateración/multilateración)",
+    "porque_correcta": "Mide distancias (o tiempos de vuelo) a tres o más referencias y triangula.",
+    "porque_erroneas": {
+      "a": "Eso es angulación (bearing-based).",
+      "c": "Describe *fingerprinting* RSSI, no lateración.",
+      "d": "Eso es dead-reckoning."
+    },
+    "resumen": "Lateración = distancias a referencias conocidas → coordenada."
+  }
+},
+{
+  "pregunta": "Si la interfaz de usuario es capaz de realizar una tarea que el usuario necesita decimos que dicha UI es:",
+  "opciones": {
+    "a": "Usada.",
+    "b": "Usable.",
+    "c": "Ubicua.",
+    "d": "Útil."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Criterios de Nielsen: utilidad",
+    "porque_correcta": "Utilidad = capacidad funcional para cubrir necesidades; usabilidad se refiere a *cómo* de fácil es hacerlo.",
+    "porque_erroneas": {
+      "a": "‘Usada’ describe adopción, no capacidad.",
+      "b": "Usabilidad trata de eficiencia y satisfacción, no de finalidad.",
+      "c": "Ubicua implica omnipresencia, no pertinencia de tarea."
+    },
+    "resumen": "Primero útil → luego usable → luego ‛usada’."
+  }
+},
+{
+  "pregunta": "Cuando en la interacción hombre-máquina participan simultáneamente varios usuarios pueden hacerlo para cooperar en una tarea común o competir por recursos:",
+  "opciones": {
+    "a": "No tiene sentido hablar de múltiples usuarios; siempre es uno.",
+    "b": "No tiene sentido que los usuarios compitan entre sí.",
+    "c": "El sistema solo distingue a varios usuarios si compiten; la cooperación es indistinguible.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Multi-usuario en HCI",
+    "porque_correcta": "Existen escenarios colaborativos y competitivos; las otras opciones niegan uno u otro.",
+    "porque_erroneas": {
+      "a": "Multi-usuario es fundamental (CSCW, groupware).",
+      "b": "Competencia ocurre (turn-taking, bandwidth, etc.).",
+      "c": "Cooperación puede detectarse (roles, permisos)."
+    },
+    "resumen": "HCI contempla tanto colaboración como competición multi-usuario."
+  }
+},
+{
+  "pregunta": "¿Quién puede verificar la información redundante para detectar si se ha vulnerado la integridad?",
+  "opciones": {
+    "a": "Nadie puede hacerlo.",
+    "b": "Con HASH y MAC solo quien posea la clave; con firma digital solo el dueño de la clave privada.",
+    "c": "Con HASH y firma digital cualquiera; con MAC solo quien posee la clave.",
+    "d": "Con HASH cualquiera; con MAC y firma digital solo quien posee la clave privada."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Verificación de integridad",
+    "porque_correcta": "Un hash público o la parte pública de la firma puede ser verificado por todos; MAC requiere la clave compartida.",
+    "porque_erroneas": {
+      "a": "Integridad *sí* se puede verificar.",
+      "b": "El hash no necesita clave; la firma se verifica con clave **pública**.",
+      "d": "MAC necesita clave simétrica compartida, no la privada de firma."
+    },
+    "resumen": "Hash/Firma: verificación pública; MAC: solo quien comparte clave."
+  }
+},
+{
+  "pregunta": "La definición de Computación Ubicua propone una HCI más natural, donde HCI es:",
+  "opciones": {
+    "a": "Human Computer Interaction, disciplina que estudia sistemas interactivos y los fenómenos implicados.",
+    "b": "Human Context Intelligence, disciplina que aplica IA para percibir contexto humano.",
+    "c": "Heterogeneous Computer Intelligence, disciplina de IA distribuida.",
+    "d": "Las demás afirmaciones son falsas."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Significado de HCI",
+    "porque_correcta": "HCI = Human-Computer Interaction, definida por la SIGCHI.",
+    "porque_erroneas": {
+      "b": "Término inventado, no estándar.",
+      "c": "No corresponde a la sigla.",
+      "d": "Sí existe opción correcta (a)."
+    },
+    "resumen": "HCI significa *Human-Computer Interaction*."
+  }
+}
+,
+{
+  "pregunta": "La condición de integridad garantiza...",
+  "opciones": {
+    "a": "que el mensaje no ha sido modificado por alguien no autorizado.",
+    "b": "...que el mensaje no ha sido modificado por alguien autorizado aunque nos percatemos de dicha modificación.",
+    "c": "que el mensaje no ha sido modificado por alguien no autorizado sin que nos percatemos de dicha modificación.",
+    "d": "que el mensaje no ha sido modificado."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Definición de integridad",
+    "porque_correcta": "La garantía es evitar modificaciones *indetectables* hechas por actores no autorizados.",
+    "porque_erroneas": {
+      "a": "Falta la parte clave: ‘sin ser detectadas’.",
+      "b": "Trata de modificaciones por usuarios *autorizados* (fuera de definición).",
+      "d": "No existe mecanismo que asegure ‘no modificado’ en sentido absoluto."
+    },
+    "resumen": "Integridad = cambios ilícitos → *detectables*."
+  }
+},
+{
+  "pregunta": "Si una interfaz de usuario es útil y usable entonces...",
+  "opciones": {
+    "a": "como consecuencia de su utilidad y usabilidad está garantizado sea usada por el usuario.",
+    "b": "tiene garantizado el éxito comercial.",
+    "c": "disfruta de buenas características pero que no garantizan que sea usada por el usuario.",
+    "d": "es una interfaz ubicua."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Útil ≠ usada",
+    "porque_correcta": "Una UI puede ser útil+usable y aun así no adoptarse (coste, marketing, hábitos...).",
+    "porque_erroneas": {
+      "a": "Nada ‘garantiza’ adopción.",
+      "b": "Éxito comercial depende de muchos factores externos.",
+      "d": "‘Ubicua’ se refiere a omnipresencia, no al binomio utilidad/usabilidad."
+    },
+    "resumen": "Utilidad+usabilidad son necesarias pero no suficientes para adopción."
+  }
+},
+{
+  "pregunta": "Los métodos de Inteligencia Artificial trabajan con entornos que pueden ser:",
+  "opciones": {
+    "a": "Estáticos, en los que no se producen cambios durante la deliberación.",
+    "b": "Parcialmente observables, cuando toda la información del entorno es captada por los sensores.",
+    "c": "Secuencial, cuando la acción a realizar depende solo del estado actual.",
+    "d": "No deterministas, cuando el futuro estado se determina exactamente a partir del actual y las acciones."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Tipología de entornos IA",
+    "porque_correcta": "La opción (a) recoge correctamente la definición de ‘estático’ en IA.",
+    "porque_erroneas": {
+      "b": "Confunde parcial con total observabilidad.",
+      "c": "La definición corresponde a entornos *no* secuenciales (episódicos).",
+      "d": "Confunde no determinista con determinista."
+    },
+    "resumen": "Estático = sin cambios mientras el agente decide."
+  }
+},
+{
+  "pregunta": "Modelo de arquitectura de sistema inteligente que considera estados pasados así como el modo en que funciona el entorno:",
+  "opciones": {
+    "a": "Modelo reactivo",
+    "b": "Modelo basado en el entorno",
+    "c": "Modelo de entorno",
+    "d": "Modelo híbrido"
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Modelo ‘based on the environment’",
+    "porque_correcta": "Mantiene memoria de estados anteriores y un modelo causal del mundo.",
+    "porque_erroneas": {
+      "a": "El reactivo solo usa percepción instantánea.",
+      "c": "No es terminología estándar.",
+      "d": "El híbrido combina modelos; no se centra en el entorno."
+    },
+    "resumen": "Basado en entorno = memoria + modelo causal."
+  }
+},
+{
+  "pregunta": "La autonomía en un sistema de Computación Ubicua:",
+  "opciones": {
+    "a": "Permite el autocontrol de las acciones ajustándose a objetivos o restricciones.",
+    "b": "Las demás afirmaciones son falsas.",
+    "c": "Permite alargar la batería de los sensores inalámbricos.",
+    "d": "Reduce la intervención *del computador*, aumentando naturalidad."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Autonomía = auto-gestión",
+    "porque_correcta": "Define la capacidad de actuar sin órdenes explícitas, guiada por metas y políticas.",
+    "porque_erroneas": {
+      "b": "Hay afirmación correcta (a).",
+      "c": "Ahorro energético es un posible efecto secundario, no la definición.",
+      "d": "Se refiere a intervención *humana*, no del computador."
+    },
+    "resumen": "Autónomo = decide y actúa por sí mismo."
+  }
+},
+{
+  "pregunta": "Propiedad de un esquema de representación que lo capacita para manipular las estructuras y obtener nuevo conocimiento:",
+  "opciones": {
+    "a": "Adecuación representacional",
+    "b": "Eficiencia inferencial",
+    "c": "Eficiencia en la adquisición",
+    "d": "Adecuación inferencial"
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Adecuación inferencial",
+    "porque_correcta": "Mide la capacidad de un formalismo para soportar procesos de inferencia potentes y correctos.",
+    "porque_erroneas": {
+      "a": "Se refiere a qué puede *expresar*, no cómo razona.",
+      "b": "Eficiencia ≠ capacidad; trata de coste de cómputo.",
+      "c": "Se centra en facilidad de generar la base de conocimiento."
+    },
+    "resumen": "Adecuación inferencial = ‘puedo razonar eficazmente con ello’."
+  }
+},
+{
+  "pregunta": "En una partida de ajedrez con tiempo limitado por jugada, el entorno se clasifica como:",
+  "opciones": {
+    "a": "Episódico y discreto",
+    "b": "Completamente observable y episódico",
+    "c": "Semidinámico y completamente observable",
+    "d": "Parcialmente observable y discreto"
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Semidinámico + completo",
+    "porque_correcta": "El tablero no cambia entre turnos (estático) *pero* el reloj avanza; eso lo hace semidinámico. Todas las piezas son visibles → completamente observable.",
+    "porque_erroneas": {
+      "a": "Las jugadas se encadenan, no son episodios independientes.",
+      "b": "Sigue sin ser episódico.",
+      "d": "La observabilidad es total."
+    },
+    "resumen": "Ajedrez con reloj = entorno semidinámico, completamente observable, discreto."
+  }
+},
+{
+  "pregunta": "Indica la respuesta FALSA sobre un entorno reactivo:",
+  "opciones": {
+    "a": "Se adapta bien a entornos dinámicos.",
+    "b": "Funciona bien en sistemas de control sencillos.",
+    "c": "Es adecuado en entornos totalmente observables.",
+    "d": "Presenta gran dependencia del entorno."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Limitaciones del modelo reactivo",
+    "porque_correcta": "Al no almacenar historia ni planificar, suele fallar en entornos muy dinámicos.",
+    "porque_erroneas": {
+      "b": "Para control simple sí resulta efectivo.",
+      "c": "Total observabilidad simplifica el diseño reactivo.",
+      "d": "Alta dependencia del entorno es cierta."
+    },
+    "resumen": "Reactivo → bueno para simple + observable; malo para muy dinámico."
+  }
+},
+{
+  "pregunta": "Ontología...",
+  "opciones": {
+    "a": "Modelo de representación del conocimiento.",
+    "b": "Método de aprendizaje automático.",
+    "c": "Situación de contradicción alcanzada por el sistema de razonamiento.",
+    "d": "Técnica de análisis de rendimiento."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Ontologías en IA",
+    "porque_correcta": "Describen formalmente conceptos y relaciones dentro de un dominio.",
+    "porque_erroneas": {
+      "b": "No es técnica de ML en sí.",
+      "c": "Confunde con ‘inconsistencia’.",
+      "d": "No mide rendimiento."
+    },
+    "resumen": "Ontología = vocabulario formalizado para compartir conocimiento."
+  }
+},
+{
+  "pregunta": "El posicionamiento por angulación...",
+  "opciones": {
+    "a": "Se basa en la distancia a varios nodos de referencia.",
+    "b": "Calcula la posición según la fuerza de la señal recibida.",
+    "c": "Usa el ángulo de llegada de la señal para estimar ubicación.",
+    "d": "Predice la ubicación con base en la posición anterior y movimiento."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Angulación (AOA, Angle of Arrival)",
+    "porque_correcta": "La angulación calcula la ubicación usando los ángulos de llegada desde varios sensores.",
+    "porque_erroneas": {
+      "a": "Eso describe lateración, basada en distancias.",
+      "b": "Eso corresponde a fingerprinting basado en RSSI.",
+      "d": "Esto es dead reckoning, no usa ángulos."
+    },
+    "resumen": "Angulación = triangulación de ángulos desde puntos conocidos."
+  }
+},
+{
+  "pregunta": "El posicionamiento mediante fingerprinting o RSSI...",
+  "opciones": {
+    "a": "Calcula distancias exactas entre nodos para determinar ubicación.",
+    "b": "Predice la nueva ubicación en función del movimiento estimado.",
+    "c": "Utiliza la potencia de la señal recibida para estimar ubicación.",
+    "d": "Calcula la posición a partir del ángulo de llegada de la señal."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Fingerprinting / RSSI (Received Signal Strength Indicator)",
+    "porque_correcta": "RSSI estima la ubicación comparando potencias recibidas con mapas previos.",
+    "porque_erroneas": {
+      "a": "Eso es lateración, no se basa en potencia sino en distancia.",
+      "b": "Eso es dead reckoning.",
+      "d": "Eso es angulación."
+    },
+    "resumen": "RSSI = estimación por intensidad de señal; útil pero impreciso."
+  }
+},
+{
+  "pregunta": "El posicionamiento por dead reckoning...",
+  "opciones": {
+    "a": "Usa distancias medidas a nodos de posición conocida.",
+    "b": "Calcula la ubicación usando el ángulo de llegada de señales.",
+    "c": "Estima la posición a partir de la potencia de señal recibida.",
+    "d": "Predice la nueva ubicación en función de la posición previa y desplazamiento."
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Dead reckoning (estimación por desplazamiento)",
+    "porque_correcta": "Parte de la posición anterior y calcula nueva ubicación según velocidad y orientación.",
+    "porque_erroneas": {
+      "a": "Eso es lateración.",
+      "b": "Eso es angulación.",
+      "c": "Eso es fingerprinting con RSSI."
+    },
+    "resumen": "Dead reckoning = estimación basada en trayectoria desde una posición previa."
+  }
+},
+{
+    "pregunta": "Un coche autónomo circulando por ciudad opera en un entorno...",
+    "opciones": {
+      "a": "Estático y discreto",
+      "b": "Parcialmente observable y estocástico",
+      "c": "Completamente observable y determinista",
+      "d": "Episódico y continuo"
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Observabilidad y determinismo",
+      "porque_correcta": "El entorno urbano no se observa completamente (puntos ciegos, peatones) y hay incertidumbre en el comportamiento del tráfico.",
+      "porque_erroneas": {
+        "a": "El tráfico es dinámico, no estático.",
+        "c": "Es imposible tener observabilidad total, y hay elementos aleatorios.",
+        "d": "No es episódico, las decisiones están encadenadas."
+      },
+      "resumen": "Coche autónomo → entorno parcial y con incertidumbre."
+    }
+  },
+  {
+    "pregunta": "Un sistema que analiza correos spam trabaja en un entorno...",
+    "opciones": {
+      "a": "Episódico y determinista",
+      "b": "Secuencial y dinámico",
+      "c": "Parcialmente observable y episódico",
+      "d": "Estocástico y secuencial"
+    },
+    "respuesta": "a",
+    "explicacion": {
+      "concepto": "Episodicidad y determinismo",
+      "porque_correcta": "Cada correo se analiza de forma independiente (episódico) y las reglas de clasificación no cambian entre mensajes.",
+      "porque_erroneas": {
+        "b": "No hay secuencia entre correos.",
+        "c": "Los datos del correo están completos, es observable.",
+        "d": "No hay azar significativo, ni dependencia entre entradas."
+      },
+      "resumen": "Clasificación de correos → cada correo = episodio aislado."
+    }
+  },
+  {
+    "pregunta": "Una IA que juega al póker actúa en un entorno...",
+    "opciones": {
+      "a": "Completo y determinista",
+      "b": "Parcialmente observable y estocástico",
+      "c": "Episódico y conocido",
+      "d": "Estático y discreto"
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Observabilidad y aleatoriedad",
+      "porque_correcta": "No puede ver las cartas del rival (parcial), y el reparto de cartas es aleatorio (estocástico).",
+      "porque_erroneas": {
+        "a": "Las cartas del rival no se ven.",
+        "c": "El juego es secuencial y dinámico.",
+        "d": "El entorno cambia con cada acción."
+      },
+      "resumen": "Póker = entorno oculto + azar."
+    }
+  },
+  {
+    "pregunta": "Un termostato que ajusta la temperatura según la lectura de un sensor actúa en un entorno...",
+    "opciones": {
+      "a": "Determinista y estático",
+      "b": "Episódico y continuo",
+      "c": "Estático y completamente observable",
+      "d": "Discreto y dinámico"
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Episodicidad y continuidad",
+      "porque_correcta": "Cada lectura es independiente y la temperatura varía en valores continuos.",
+      "porque_erroneas": {
+        "a": "Puede haber cambios de temperatura mientras actúa.",
+        "c": "La temperatura cambia incluso si no se observa.",
+        "d": "La variable temperatura no es discreta."
+      },
+      "resumen": "Termostato → episodios continuos."
+    }
+  },
+  {
+    "pregunta": "Un robot que limpia una habitación mientras esquiva obstáculos trabaja en un entorno...",
+    "opciones": {
+      "a": "Estático y discreto",
+      "b": "Semidinámico y observable",
+      "c": "Dinámico y parcialmente observable",
+      "d": "Episódico y estocástico"
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Dinamicidad y observabilidad",
+      "porque_correcta": "El entorno cambia (personas u objetos en movimiento), y el robot no puede verlo todo al mismo tiempo.",
+      "porque_erroneas": {
+        "a": "El entorno cambia, no es estático.",
+        "b": "La observación no es completa, y hay cambios constantes.",
+        "d": "No es episódico, las acciones afectan a futuras decisiones."
+      },
+      "resumen": "Robot de limpieza → entorno dinámico + observación parcial."
+    }
+  },
+  {
+    "pregunta": "El ajedrez entre dos jugadores humanos es un entorno...",
+    "opciones": {
+      "a": "Multiagente, determinista y discreto",
+      "b": "Un agente, estocástico y continuo",
+      "c": "Episódico, observable y dinámico",
+      "d": "Parcialmente observable y continuo"
+    },
+    "respuesta": "a",
+    "explicacion": {
+      "concepto": "Número de agentes, naturaleza y estado del entorno",
+      "porque_correcta": "Participan dos agentes (jugadores), las reglas no incluyen azar (determinista), y el tablero es finito y discreto.",
+      "porque_erroneas": {
+        "b": "No hay azar y el entorno no es continuo.",
+        "c": "Las jugadas se encadenan, no son episodios aislados.",
+        "d": "El entorno es completamente observable y discreto."
+      },
+      "resumen": "Ajedrez → multiagente, determinista, discreto."
+    }
+  },
+  {
+    "pregunta": "Si el agente no conoce las reglas del entorno, decimos que es un entorno...",
+    "opciones": {
+      "a": "Conocido",
+      "b": "Determinista",
+      "c": "Desconocido",
+      "d": "Episódico"
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Grado de conocimiento del entorno",
+      "porque_correcta": "Cuando el agente no conoce cómo funciona el entorno ni sus reglas, debe aprenderlas; por tanto, el entorno es desconocido.",
+      "porque_erroneas": {
+        "a": "Ser conocido implica que el agente sabe cómo interactuar.",
+        "b": "Puede ser determinista pero aún desconocido si no se entienden las reglas.",
+        "d": "Episódico no tiene relación con el conocimiento del entorno."
+      },
+      "resumen": "Desconocido = el agente debe aprender las reglas del entorno."
+    }
+  },
+  {
+    "pregunta": "Si se garantiza la confidencialidad entonces no tendremos problemas de integridad:",
+    "opciones": {
+      "a": "Verdadero, aunque la confidencialidad no cubre la disponibilidad.",
+      "b": "Falso, la integridad es imposible de garantizar.",
+      "c": "Falso, podemos no leer un mensaje pero sí modificarlo sin ser detectados.",
+      "d": "Verdadero, sin leer no se puede alterar nada."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Confidencialidad ≠ Integridad",
+      "porque_correcta": "El atacante puede modificar los datos cifrados aunque no los entienda, lo que rompe la integridad.",
+      "porque_erroneas": {
+        "a": "Habla de disponibilidad, que no tiene relación directa con la integridad.",
+        "b": "La integridad sí se puede garantizar mediante hash o MAC.",
+        "d": "Es falso: se puede alterar contenido cifrado sin entenderlo."
+      },
+      "resumen": "Cada propiedad de seguridad requiere mecanismos distintos."
+    }
+  },
+  {
+    "pregunta": "¿Qué propiedad se vulnera si un sistema no está accesible cuando se necesita?",
+    "opciones": {
+      "a": "Confidencialidad",
+      "b": "Integridad",
+      "c": "Disponibilidad",
+      "d": "No repudio"
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Disponibilidad",
+      "porque_correcta": "La disponibilidad garantiza que el sistema esté operativo cuando se necesite.",
+      "porque_erroneas": {
+        "a": "Confidencialidad es sobre ocultar datos, no sobre disponibilidad.",
+        "b": "Integridad es sobre datos no alterados.",
+        "d": "No repudio trata de demostrar quién hizo qué, no acceso."
+      },
+      "resumen": "Si el sistema no responde → problema de disponibilidad."
+    }
+  },
+  {
+    "pregunta": "La autenticación y la autorización...",
+    "opciones": {
+      "a": "Son equivalentes, ambas permiten acceder a recursos.",
+      "b": "Autenticación verifica identidad; autorización define permisos.",
+      "c": "La autorización permite saber quién eres.",
+      "d": "La autenticación decide si puedes ejecutar una acción."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Autenticación vs. autorización",
+      "porque_correcta": "Autenticación = probar quién eres; autorización = qué puedes hacer.",
+      "porque_erroneas": {
+        "a": "Son procesos distintos, no equivalentes.",
+        "c": "Eso es autenticación, no autorización.",
+        "d": "Eso es autorización, no autenticación."
+      },
+      "resumen": "Primero te autenticas, luego se autoriza lo que puedes hacer."
+    }
+  },
+  {
+    "pregunta": "El no repudio garantiza que...",
+    "opciones": {
+      "a": "Los datos no hayan sido alterados.",
+      "b": "El mensaje solo pueda ser leído por el destinatario.",
+      "c": "El autor de una acción no pueda negar haberla realizado.",
+      "d": "El sistema siempre esté disponible para los usuarios."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "No repudio",
+      "porque_correcta": "Evita que alguien niegue haber enviado un mensaje o realizado una acción.",
+      "porque_erroneas": {
+        "a": "Eso es integridad.",
+        "b": "Eso es confidencialidad.",
+        "d": "Eso es disponibilidad."
+      },
+      "resumen": "No repudio = evidencia contra la negación de autoría."
+    }
+  },
+  {
+    "pregunta": "¿Qué diferencia hay entre cifrado y firma digital?",
+    "opciones": {
+      "a": "Ambos garantizan confidencialidad.",
+      "b": "El cifrado protege integridad; la firma, confidencialidad.",
+      "c": "El cifrado oculta contenido; la firma verifica autenticidad e integridad.",
+      "d": "La firma digital impide que el mensaje sea leído por terceros."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Cifrado vs. firma digital",
+      "porque_correcta": "El cifrado asegura que solo el receptor lea el mensaje; la firma permite verificar quién lo envió y si fue modificado.",
+      "porque_erroneas": {
+        "a": "La firma no protege confidencialidad.",
+        "b": "Confunde los conceptos.",
+        "d": "Eso es cifrado, no firma digital."
+      },
+      "resumen": "Cifrado = confidencialidad; Firma = autenticidad + integridad."
+    }
+  },
+  {
+    "pregunta": "¿Qué hace una función hash?",
+    "opciones": {
+      "a": "Cifra los datos de forma reversible.",
+      "b": "Comprime datos para ahorrar espacio.",
+      "c": "Genera un resumen único del contenido para verificar su integridad.",
+      "d": "Evita que los datos sean leídos sin autorización."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Funciones hash",
+      "porque_correcta": "Transforman los datos en un valor fijo (hash) que cambia ante cualquier modificación, lo que permite verificar integridad.",
+      "porque_erroneas": {
+        "a": "El hash no es reversible, a diferencia del cifrado.",
+        "b": "No es compresión, es verificación.",
+        "d": "Eso es confidencialidad mediante cifrado."
+      },
+      "resumen": "Hash = huella digital del contenido → integridad."
+    }
+  },
+  {
+    "pregunta": "En criptografía de clave pública, ¿qué se hace con la clave privada?",
+    "opciones": {
+      "a": "Se usa para cifrar un mensaje que luego todos pueden descifrar.",
+      "b": "Se utiliza para firmar digitalmente y solo el receptor puede verificarlo.",
+      "c": "Se usa para descifrar mensajes cifrados con la clave pública.",
+      "d": "Se distribuye libremente para que cualquiera pueda autenticarse."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Criptografía asimétrica",
+      "porque_correcta": "En cifrado asimétrico, el emisor cifra con tu clave pública, y tú descifras con tu clave privada.",
+      "porque_erroneas": {
+        "a": "Cifrar con la privada se usa para firmar, no para confidencialidad.",
+        "b": "Cualquiera con tu clave pública puede verificar la firma.",
+        "d": "La clave privada nunca se distribuye."
+      },
+      "resumen": "Clave pública para cifrar; clave privada para descifrar."
+    }
+  },
+  {
+  "pregunta": "Según Mark Weiser, la 'Calm Technology' o ‘tecnología que desaparece’ debe...",
+  "opciones": {
+    "a": "Centrar la atención del usuario en la pantalla principal del dispositivo.",
+    "b": "Requerir la interacción consciente y constante del usuario para cada tarea.",
+    "c": "Integrarse en el entorno de forma silenciosa y mover la información a la periferia de la atención.",
+    "d": "Aumentar la frecuencia de notificaciones para mantener al usuario informado."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Calm Technology (tecnología ubicua invisible)",
+    "porque_correcta": "Weiser proponía que la computación ubicua debe estar ‘en el trasfondo’, entrando en el centro de atención solo cuando es necesario.",
+    "porque_erroneas": {
+      "a": "Precisamente lo contrario: evitar monopolizar la atención.",
+      "b": "Calm Technology reduce, no incrementa, la carga cognitiva explícita.",
+      "d": "El exceso de notificaciones rompe la calma y genera distracción."
+    },
+    "resumen": "Calm Tech = información periférica, intervención mínima del usuario."
+  }
+},
+{
+  "pregunta": "En la matriz Integración × Movilidad de Mattern, la computación ubicua se sitúa en el cuadrante...",
+  "opciones": {
+    "a": "Alta integración y alta movilidad (un usuario rodeado de muchos dispositivos).",
+    "b": "Baja integración y alta movilidad (un portátil viajando con el usuario).",
+    "c": "Baja integración y baja movilidad (mainframe en sala fija).",
+    "d": "Alta integración y baja movilidad (PC de escritorio altamente conectado)."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Matriz Integración–Movilidad",
+    "porque_correcta": "La ubicua combina dispositivos integrados en el entorno y el usuario puede moverse libremente rodeado de ellos.",
+    "porque_erroneas": {
+      "b": "Describe computación móvil tradicional, no pervasiva/ubicua.",
+      "c": "Corresponde a la era mainframe (estática y poco integrada).",
+      "d": "Sería un PC de sobremesa conectado, pero sin movilidad."
+    },
+    "resumen": "Ubicua = muchos dispositivos integrados + usuario móvil."
+  }
+},
+{
+  "pregunta": "¿Cuál de los siguientes componentes NO forma parte típica de un nodo sensor inalámbrico estándar?",
+  "opciones": {
+    "a": "Microcontrolador (MCU).",
+    "b": "Módulo de radio transceptor.",
+    "c": "Sistema de refrigeración por líquido.",
+    "d": "Batería o fuente de energía."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Arquitectura de nodo sensor",
+    "porque_correcta": "Los nodos suelen ser de bajo consumo y no incluyen costosos sistemas de refrigeración líquida.",
+    "porque_erroneas": {
+      "a": "El MCU es el cerebro que procesa datos.",
+      "b": "El radio transceptor permite la comunicación inalámbrica.",
+      "d": "La batería es esencial para la operación autónoma."
+    },
+    "resumen": "Nodo sensor = MCU + radio + fuente energía (+ sensores y memoria)."
+  }
+},
+{
+  "pregunta": "El marco «Smart DEI» clasifica la inteligencia en tres niveles: Dispositivos, Entorno e Interacciones. ¿Cuál de las siguientes frases describe correctamente el nivel de ‘Interacción’?",
+  "opciones": {
+    "a": "Hace referencia a sensores y actuadores físicos embebidos en objetos cotidianos.",
+    "b": "Se centra en las políticas de seguridad y gestión de claves del sistema.",
+    "c": "Se ocupa de la manera en que el usuario se comunica con el sistema, incluyendo modalidades explícitas e implícitas.",
+    "d": "Describe las características arquitectónicas del nodo sensor, como MCU, radio y batería."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Smart DEI – nivel Interacción",
+    "porque_correcta": "El nivel ‘Interacción’ aborda cómo el usuario y el sistema intercambian información (voz, gestos, notificaciones calmadas, etc.).",
+    "porque_erroneas": {
+      "a": "Corresponde al nivel ‘Dispositivos’.",
+      "b": "La seguridad no forma parte explícita del modelo DEI.",
+      "d": "Eso describe hardware (Dispositivos), no interacción."
+    },
+    "resumen": "Interacción = canales y modalidades de comunicación humano-sistema."
+  }
+},
+{
+  "pregunta": "El problema del nodo oculto en redes inalámbricas se produce cuando...",
+  "opciones": {
+    "a": "Dos nodos pueden oírse entre sí pero no al receptor común, causando subutilización del canal.",
+    "b": "Un nodo transmite a un receptor sin saber que existe otro transmisor fuera de su alcance que también envía al mismo receptor.",
+    "c": "El receptor está demasiado cerca y satura el front-end de RF del transmisor.",
+    "d": "Todos los nodos comparten la misma clave criptográfica y se genera colisión de claves."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Nodo oculto (hidden node)",
+    "porque_correcta": "El emisor no detecta la portadora del otro transmisor y ambos colisionan en el receptor.",
+    "porque_erroneas": {
+      "a": "Eso es el problema del nodo expuesto (over-exposed).",
+      "c": "Describe desensibilización por proximidad, no nodo oculto.",
+      "d": "Confunde colisiones lógicas con colisiones de clave."
+    },
+    "resumen": "Nodo oculto = transmisores fuera del alcance mutuo colisionan en receptor común."
+  }
+},
+{
+  "pregunta": "¿Cuál de los siguientes sistemas operativos fue diseñado específicamente para redes de sensores inalámbricas de bajo consumo?",
+  "opciones": {
+    "a": "TinyOS",
+    "b": "Ubuntu Server",
+    "c": "Windows CE",
+    "d": "Android Things"
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Sistemas operativos para WSN",
+    "porque_correcta": "TinyOS es un sistema operativo event-driven y extremadamente ligero, creado para nodos Mica/Mote.",
+    "porque_erroneas": {
+      "b": "Ubuntu Server está pensado para servidores generales, no WSN.",
+      "c": "Windows CE fue diseñado para dispositivos móviles/embebidos, pero no optimizado para sensores.",
+      "d": "Android Things orientado a IoT más potente, no a nodos de sensores motes de bajo recurso."
+    },
+    "resumen": "TinyOS = OS minimalista para redes de sensores."
+  }
+},
+{
+  "pregunta": "Entre los fenómenos que degradan la propagación inalámbrica, la atenuación por ‘multitrayecto’ se debe principalmente a...",
+  "opciones": {
+    "a": "La absorción de la señal por moléculas de agua en la atmósfera.",
+    "b": "El desplazamiento Doppler causado por la movilidad relativa de emisor y receptor.",
+    "c": "La llegada de múltiples copias de la señal reflejadas que interfieren entre sí.",
+    "d": "El confinamiento de la señal en un único trayecto directo sin reflexión."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Distorsiones de la señal – multitrayecto",
+    "porque_correcta": "Reflexiones en paredes y objetos provocan ecos que suman/desfasan la señal original.",
+    "porque_erroneas": {
+      "a": "Eso describe absorción, no multitrayecto.",
+      "b": "El Doppler produce corrimiento en frecuencia, no ecos.",
+      "d": "‘Único trayecto’ es lo opuesto al efecto multitrayecto."
+    },
+    "resumen": "Multitrayecto = múltiples rutas → interferencia y fading."
+  }
+},
+{
+  "pregunta": "En una red de sensores, ¿qué problema de seguridad surge cuando la \"gestión de claves\" es deficiente?",
+  "opciones": {
+    "a": "Se incrementa la latencia de la red, pero la confidencialidad se mantiene.",
+    "b": "La confidencialidad puede romperse porque un atacante obtiene o predice las claves.",
+    "c": "Solo se afecta la disponibilidad, nunca la integridad.",
+    "d": "La red se hace inmune al ataque de nodo oculto."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Gestión de claves en WSN",
+    "porque_correcta": "Una mala gestión de claves es la vulnerabilidad crítica indicada en el temario: comprometer claves = comprometer confidencialidad e integridad. :contentReference[oaicite:0]{index=0}",
+    "porque_erroneas": {
+      "a": "El problema no es la latencia, sino la fuga de claves.",
+      "c": "Con claves robadas también se altera integridad y confidencialidad.",
+      "d": "Nodo oculto es un problema de acceso al medio, no de claves."
+    },
+    "resumen": "Clave mal gestionada ⇒ atacante descifra o falsifica datos."
+  }
+},
+{
+  "pregunta": "En el ciclo de vida del contexto, la secuencia típica de fases es:",
+  "opciones": {
+    "a": "Modelado → Difusión → Adquisición → Razonamiento",
+    "b": "Adquisición → Modelado → Razonamiento → Difusión",
+    "c": "Adquisición → Difusión → Razonamiento → Modelado",
+    "d": "Razonamiento → Modelado → Adquisición → Difusión"
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Pipeline de contexto",
+    "porque_correcta": "El temario describe primero capturar el dato, luego representarlo, después inferir y finalmente distribuirlo. :contentReference[oaicite:1]{index=1}",
+    "porque_erroneas": {
+      "a": "Empieza por modelar sin tener datos.",
+      "c": "Difundir antes de razonar no añade valor.",
+      "d": "Invierte completamente el orden lógico."
+    },
+    "resumen": "Capturo → modelo → razono → reparto."
+  }
+},
+{
+  "pregunta": "¿Cuál de las siguientes técnicas NO aparece en la lista del temario para razonar bajo incertidumbre en sistemas context-aware?",
+  "opciones": {
+    "a": "Redes Bayesianas",
+    "b": "Modelos Ocultos de Markov",
+    "c": "Lógica difusa",
+    "d": "Cifrado RSA"
+  },
+  "respuesta": "d",
+  "explicacion": {
+    "concepto": "Razonamiento con incertidumbre",
+    "porque_correcta": "RSA es criptografía; no es método de inferencia probabilística. :contentReference[oaicite:2]{index=2}",
+    "porque_erroneas": {
+      "a": "Está listada explícitamente.",
+      "b": "También figura como HMM.",
+      "c": "La lógica difusa se cita como método."
+    },
+    "resumen": "RSA ≠ herramienta de razonamiento, es de seguridad."
+  }
+},
+{
+  "pregunta": "En HCI implícita, el ‘modelo C2H’ (Context-to-Human) se refiere a:",
+  "opciones": {
+    "a": "Un modelo que traduce los comandos de voz a gestos hápticos.",
+    "b": "La representación de las características y estado del usuario que el sistema infiere automáticamente.",
+    "c": "El esquema de control del canal de comunicación entre dos sensores humanos.",
+    "d": "Un protocolo de enrutamiento jerárquico basado en contexto."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Modelo de usuario C2H",
+    "porque_correcta": "El temario define C2H como el modelo implícito del usuario usado para interpretar acciones y contexto. :contentReference[oaicite:3]{index=3}",
+    "porque_erroneas": {
+      "a": "No hay conversión voz-háptica aquí.",
+      "c": "No hay ‘sensores humanos’; confunde términos.",
+      "d": "Nada que ver con enrutamiento."
+    },
+    "resumen": "C2H = perfil/estado del usuario que el sistema mantiene de forma implícita."
+  }
+},
+{
+  "pregunta": "¿Qué distingue a una arquitectura ‘basada en objetivos’ de una ‘basada en utilidad’ en sistemas inteligentes, según el temario?",
+  "opciones": {
+    "a": "La primera mide el éxito con una función escalar continua; la segunda, con umbrales discretos.",
+    "b": "La ‘de objetivos’ solo verifica si un estado final se alcanza; la ‘de utilidad’ asigna una puntuación a cada estado posible.",
+    "c": "Ambas son equivalentes; el temario las presenta como sinónimos.",
+    "d": "La ‘de utilidad’ ignora los estados finales y se centra en minimización de energía."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Arquitecturas de IA",
+    "porque_correcta": "El texto describe que el modelo de objetivos comprueba cumplimiento, mientras que el de utilidad cuantifica grados de preferencia. :contentReference[oaicite:4]{index=4}",
+    "porque_erroneas": {
+      "a": "Invierte los términos.",
+      "c": "El temario las diferencia claramente.",
+      "d": "La energía puede ser parte de la función, no su única meta."
+    },
+    "resumen": "Objetivos = ‘logrado / no logrado’; Utilidad = ‘qué tan bueno’."
+  }
+},
+{
+  "pregunta": "El ataque de denegación de servicio que mantiene a los nodos sensores activos para agotar su batería se denomina:",
+  "opciones": {
+    "a": "Traffic analysis",
+    "b": "Sleep deprivation attack",
+    "c": "Sybil attack",
+    "d": "Wormhole attack"
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Disponibilidad / DoS en WSN",
+    "porque_correcta": "El *sleep deprivation attack* impide que el nodo entre en modo reposo y agota su energía, comprometiendo la disponibilidad.",
+    "porque_erroneas": {
+      "a": "Traffic analysis es espionaje de patrones, no DoS.",
+      "c": "Sybil suplanta identidades; afecta integridad más que disponibilidad.",
+      "d": "Wormhole crea un túnel para desviar tráfico, diferente a agotar batería."
+    },
+    "resumen": "Disponibilidad puede romperse agotando recursos; el ejemplo clásico es *sleep deprivation*."
+  }
+},
+{
+  "pregunta": "¿Qué modelo de representación de contexto es el más expresivo para razonamiento semántico según el temario?",
+  "opciones": {
+    "a": "Pares clave-valor",
+    "b": "Ontologías (OWL/RDF)",
+    "c": "Tuplas planas sin tipo",
+    "d": "Arrays indexados"
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Modelos de representación de contexto",
+    "porque_correcta": "Las ontologías permiten jerarquías, relaciones ricas y compatibilidad con razonadores lógicos.",
+    "porque_erroneas": {
+      "a": "Key-value es el más simple, no el más expresivo.",
+      "c": "Tuplas planas carecen de semántica rica.",
+      "d": "Arrays sirven para listas, no para contexto semántico."
+    },
+    "resumen": "Para inferencia avanzada se usan ontologías; los demás modelos son más básicos."
+  }
+},
+{
+  "pregunta": "En la clasificación de tipos de contexto, la localización del usuario dentro de un edificio se considera un contexto:",
+  "opciones": {
+    "a": "Físico primario",
+    "b": "Humano secundario",
+    "c": "Virtual primario",
+    "d": "Humano primario"
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Tipos de contexto",
+    "porque_correcta": "Es información física (espacial) obtenida directamente de sensores, por tanto ‘físico’ y ‘primario’.",
+    "porque_erroneas": {
+      "b": "Humano se refiere a emociones, tareas…",
+      "c": "Virtual son datos digitales (agenda, archivos).",
+      "d": "Humano primario serían signos vitales, no ubicación."
+    },
+    "resumen": "Contexto físico primario = datos del entorno captados sin inferencia."
+  }
+},
+{
+  "pregunta": "En la interacción implícita típica de la computación ubicua, la acción del usuario...",
+  "opciones": {
+    "a": "Es intencional y dirigida explícitamente al sistema.",
+    "b": "Es observada e interpretada por el sistema sin que el usuario la dirija a él.",
+    "c": "Requiere pulsar un botón o dar una orden de voz clara.",
+    "d": "Siempre implica el uso de lenguaje natural."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Interacción implícita vs. explícita",
+    "porque_correcta": "La implícita aprovecha acciones cotidianas o datos de sensores para deducir la intención del usuario.",
+    "porque_erroneas": {
+      "a": "Eso es interacción explícita.",
+      "c": "Botones y órdenes pertenecen a explícita.",
+      "d": "El lenguaje natural es solo una modalidad explícita más."
+    },
+    "resumen": "Implícita = el sistema actúa sin requerir comandos conscientes."
+  }
+},
+{
+  "pregunta": "El aprendizaje por refuerzo se caracteriza por:",
+  "opciones": {
+    "a": "Utilizar un gran conjunto de datos totalmente etiquetados.",
+    "b": "Descubrir patrones en datos sin etiquetas (clustering).",
+    "c": "Aprender mediante recompensas o penalizaciones recibidas al interactuar con el entorno.",
+    "d": "Entrenar una única vez con datos estáticos sin retroalimentación."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Tipos de aprendizaje en IA",
+    "porque_correcta": "En refuerzo un agente toma acciones, observa recompensas y ajusta su política para maximizar la ganancia acumulada.",
+    "porque_erroneas": {
+      "a": "Describe aprendizaje supervisado.",
+      "b": "Eso es aprendizaje no supervisado.",
+      "d": "El aprendizaje por refuerzo es iterativo y requiere feedback continuo."
+    },
+    "resumen": "Refuerzo = exploración, acción, recompensa; no etiquetas previas."
+  }
+},
+{
+  "pregunta": "Un termopar, capaz de generar un voltaje proporcional a la diferencia de temperatura sin alimentación externa, se clasifica como un sensor...",
+  "opciones": {
+    "a": "Activo",
+    "b": "Pasivo",
+    "c": "Digital",
+    "d": "Óptico"
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Sensores pasivos vs. activos",
+    "porque_correcta": "Los sensores pasivos obtienen la energía de la propia magnitud medida (el termopar genera voltaje a partir del gradiente térmico).",
+    "porque_erroneas": {
+      "a": "Los activos requieren fuente de alimentación externa para producir la señal.",
+      "c": "‘Digital’ describe formato de salida, no pasivo/activo.",
+      "d": "‘Óptico’ describe tecnología de detección, no su alimentación."
+    },
+    "resumen": "Pasivo = sin alimentación externa; activo = con alimentación."
+  }
+},
+{
+  "pregunta": "El mecanismo de transducción que convierte la proximidad de un objeto en un cambio de capacitancia es:",
+  "opciones": {
+    "a": "Piezoeléctrico",
+    "b": "Inductivo",
+    "c": "Capacitivo",
+    "d": "Resistivo"
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Mecanismos de transducción",
+    "porque_correcta": "Los sensores capacitivos detectan la variación de capacitancia cuando cambia la permittividad o la distancia entre placas.",
+    "porque_erroneas": {
+      "a": "El piezoeléctrico genera carga por deformación mecánica.",
+      "b": "El inductivo usa variación de inductancia o campos magnéticos.",
+      "d": "El resistivo varía su resistencia (termistor, tensiómetro)."
+    },
+    "resumen": "Capacitivo = cambio de C; los demás emplean otros principios."
+  }
+},
+{
+  "pregunta": "¿Cuál es la característica distintiva de un HMAC frente a un MAC simétrico tradicional?",
+  "opciones": {
+    "a": "Combina una función hash criptográfica con una clave secreta compartida.",
+    "b": "Utiliza exclusivamente cifrado asimétrico para generar la firma.",
+    "c": "No aporta integridad, solo confidencialidad.",
+    "d": "Requiere dos claves públicas diferentes para verificar la autenticidad."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "MAC vs. HMAC",
+    "porque_correcta": "HMAC (Hash-based Message Authentication Code) usa un hash seguro (p. ej. SHA-256) junto con una clave para autenticar e integrar el mensaje.",
+    "porque_erroneas": {
+      "b": "HMAC es simétrico; no usa cifrado asimétrico.",
+      "c": "HMAC sí garantiza integridad y autenticidad.",
+      "d": "Solo se emplea una clave secreta compartida, no claves públicas."
+    },
+    "resumen": "HMAC = hash + clave secreta → autenticidad + integridad simétrica."
+  }
+},
+{
+  "pregunta": "El objetivo principal del protocolo Diffie–Hellman es:",
+  "opciones": {
+    "a": "Establecer una clave secreta compartida a través de un canal inseguro.",
+    "b": "Firmar digitalmente un mensaje con clave privada.",
+    "c": "Cifrar directamente el contenido de un mensaje.",
+    "d": "Verificar la integridad de un mensaje mediante un resumen hash."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Intercambio de claves Diffie–Hellman",
+    "porque_correcta": "Permite que dos partes acuerden una clave secreta sin haberla compartido previamente, aun estando expuestas a oyentes.",
+    "porque_erroneas": {
+      "b": "Firmar es tarea de RSA/ECDSA, no de Diffie-Hellman.",
+      "c": "DH no cifra datos; solo genera la clave.",
+      "d": "Para integridad se usan MAC/HMAC, no DH."
+    },
+    "resumen": "Diffie–Hellman ⇒ negociación de clave segura, no cifrado ni firma directa."
+  }
+},
+{
+  "pregunta": "En redes de sensores, la técnica conocida como ‘compressive sensing’ se emplea principalmente para:",
+  "opciones": {
+    "a": "Garantizar la confidencialidad de los datos mediante compresión con clave.",
+    "b": "Tomar menos muestras de lo habitual y reconstruir la señal, reduciendo el tráfico de red.",
+    "c": "Aumentar el intervalo de muestreo para evitar la sincronización entre nodos.",
+    "d": "Eliminar completamente la necesidad de agregación de datos intermedios."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Agregación y compresión de datos en WSN",
+    "porque_correcta": "El temario define *compressive sensing* como un muestreo al azar y no continuo para ahorrar transmisiones, enviando menos paquetes. :contentReference[oaicite:0]{index=0}",
+    "porque_erroneas": {
+      "a": "No es un método de cifrado.",
+      "c": "No incrementa el intervalo, reduzca muestras.",
+      "d": "Sigue siendo compatible con agregación."
+    },
+    "resumen": "Compressive sensing = menos muestras → menos bytes en el aire."
+  }
+},
+{
+  "pregunta": "¿Cuál de los siguientes sistemas operativos LIGEROS aparece en el temario como alternativa a TinyOS y Contiki para nodos sensores?",
+  "opciones": {
+    "a": "LiteOS",
+    "b": "Ubuntu Core",
+    "c": "FreeRTOS",
+    "d": "Windows IoT Enterprise"
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Micro-OS para WSN",
+    "porque_correcta": "La lista del PDF incluye LiteOS junto a TinyOS, Contiki, SOS, etc., como OS ultraligeros para sensores. :contentReference[oaicite:1]{index=1}",
+    "porque_erroneas": {
+      "b": "Ubuntu Core no se menciona y es mucho más pesado.",
+      "c": "FreeRTOS no figura en la lista del temario.",
+      "d": "Windows IoT Enterprise tampoco se menciona y está fuera del rango WSN."
+    },
+    "resumen": "LiteOS es uno de los micro-SO citados junto a TinyOS/Contiki."
+  }
+},
+{
+  "pregunta": "Según el temario, uno de los PRINCIPIOS éticos clave para los Ambientes Inteligentes y AAL es:",
+  "opciones": {
+    "a": "Priorizar la venta de datos recogidos para financiar el servicio.",
+    "b": "Actuar de modo que no sea necesario un conocimiento experto del usuario.",
+    "c": "Forzar cambios en las rutinas de las personas para optimizar la eficiencia.",
+    "d": "Deshabilitar la intervención humana para garantizar la autonomía completa."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Ética y privacidad en AmI/AAL",
+    "porque_correcta": "La lista de ‘¿Qué se espera de los Ambientes Inteligentes?’ incluye actuar sin exigir expertise al usuario. :contentReference[oaicite:2]{index=2}",
+    "porque_erroneas": {
+      "a": "Contradice el requisito de privacidad y seguridad.",
+      "c": "El principio dice ‘sin forzar cambios en rutinas’.",
+      "d": "El usuario debe mantener el control (principio 9)."
+    },
+    "resumen": "AmI debe ayudar de forma sencilla, sin requerir al usuario ser experto."
+  }
+},
+{
+  "pregunta": "Respecto a los protocolos de sincronización en WSN, ¿qué afirmación describe CORRECTAMENTE la diferencia entre RBS (Reference Broadcast Synchronization) y LTS (Lightweight Tree Synchronization)?",
+  "opciones": {
+    "a": "RBS crea una jerarquía en árbol para propagar la hora desde un nodo raíz, mientras LTS usa mensajes broadcast de referencia.",
+    "b": "RBS no necesita un emisor de tiempo central y basa la sincronía en paquetes broadcast; LTS distribuye la hora a través de un árbol ligero desde un nodo maestro.",
+    "c": "Ambos dependen de un agente externo (GPS) y, por tanto, se consideran sincronización externa.",
+    "d": "LTS ignora la sincronización interna y únicamente calcula retardo de propagación."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Protocolos RBS vs. LTS",
+    "porque_correcta": "El temario lista RBS como protocolo basado en referencias broadcast y LTS como distribución jerárquica de tiempo mediante un árbol ligero. ",
+    "porque_erroneas": {
+      "a": "Invierte las características de RBS y LTS.",
+      "c": "Ni RBS ni LTS requieren GPS; son protocolos internos.",
+      "d": "LTS sí realiza sincronización interna completa, no solo retardo."
+    },
+    "resumen": "RBS = referencia broadcast; LTS = sincronía jerárquica en árbol."
+  }
+},
+{
+  "pregunta": "En el framework Smart DEI, ¿qué combinación patrón-descripción es CORRECTA?",
+  "opciones": {
+    "a": "Dispositivos inteligentes: centrados en el entorno físico con alta autonomía y mínima atención al usuario.",
+    "b": "Entornos inteligentes: dispositivos ligados al entorno físico, orientados a una sola tarea y con actuación autónoma anticipativa.",
+    "c": "Interacciones inteligentes: alto foco en hardware físico y baja participación de entidades software distribuidas.",
+    "d": "Dispositivos inteligentes: poca movilidad y control repartido entre múltiples usuarios sin UI dedicada."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Patrones Smart DEI",
+    "porque_correcta": "El PDF describe los ‘Entornos inteligentes’ como dispositivos muy ligados al entorno físico, centrados en una tarea y capaces de actuar de forma autónoma y anticipativa. ",
+    "porque_erroneas": {
+      "a": "Esa descripción corresponde más a ‘Entornos’ que a ‘Dispositivos’.",
+      "c": "Interacciones inteligentes se centran en modelos complejos software-hardware y contexto de usuario, no solo hardware físico.",
+      "d": "Dispositivos inteligentes suelen ser personales, de alta movilidad y con UI propia."
+    },
+    "resumen": "Smart DEI: Dispositivos (personales), Entornos (físicos, autónomos), Interacciones (servicios distribuidos)."
+  }
+},
+{
+  "pregunta": "Si una interfaz es útil y usable entonces…",
+  "opciones": {
+    "a": "Está garantizado que los usuarios la adoptarán y la utilizarán siempre.",
+    "b": "Solo faltará que sea accesible para que la adopción sea automática.",
+    "c": "Aún puede no ser usada si existen barreras externas (coste, hábitos, marketing).",
+    "d": "Significa exactamente lo mismo que «usada»."
+  },
+  "respuesta": "c",
+  "explicacion": {
+    "concepto": "Utilidad, usabilidad y adopción",
+    "porque_correcta": "Útil + usable son condiciones necesarias pero no suficientes: factores contextuales pueden impedir que la gente la use.",
+    "porque_erroneas": {
+      "a": "No hay garantía absoluta de adopción.",
+      "b": "La accesibilidad es importante, pero tampoco garantiza uso.",
+      "d": "‘Usada’ es un estado posterior a útil + usable."
+    },
+    "resumen": "Útil y usable facilitan el uso, pero no lo aseguran."
+  }
+},
+{
+  "pregunta": "Un agente inteligente puede encontrarse con entornos que combinan las características de…",
+  "opciones": {
+    "a": "Deterministas o estocásticos, completamente observables o parcialmente observables.",
+    "b": "Solo deterministas y siempre completamente observables.",
+    "c": "Secuenciales, pero nunca dinámicos.",
+    "d": "Continuos, lo que implica que son siempre estáticos."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Clasificación de entornos IA",
+    "porque_correcta": "El temario describe que un entorno puede ser determinista/estocástico y completo/parcial, entre otras dimensiones.",
+    "porque_erroneas": {
+      "b": "Excluye entornos estocásticos y parciales, que existen.",
+      "c": "Hay entornos dinámicos y secuenciales al mismo tiempo.",
+      "d": "Continuidad no implica ser estático."
+    },
+    "resumen": "Las variables clave son determinismo y observabilidad."
+  }
+},
+{
+  "pregunta": "El modelo ‘basado en el entorno’ de la arquitectura de agentes se caracteriza por…",
+  "opciones": {
+    "a": "Ignorar los estados pasados y reaccionar sólo al estímulo actual.",
+    "b": "Mantener una representación interna del entorno y considerarla al decidir.",
+    "c": "Ser puramente reactivo y sin memoria interna.",
+    "d": "Utilizar siempre planes predefinidos sin consultar el estado del entorno."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Modelo basado en el entorno",
+    "porque_correcta": "Almacena estados pasados y un modelo del mundo para razonar sobre cómo funciona éste.",
+    "porque_erroneas": {
+      "a": "Eso describe un agente totalmente reactivo.",
+      "c": "Contradice el uso del modelo.",
+      "d": "El modelo permite ajustar decisiones, no sólo planes fijos."
+    },
+    "resumen": "Incluye memoria y modelo de mundo → mejor decisión."
+  }
+},
+{
+  "pregunta": "En computación ubicua, la AUTONOMÍA de un sistema significa que…",
+  "opciones": {
+    "a": "Puede ejecutar cualquier acción sin restricciones del usuario.",
+    "b": "Se controla a sí mismo para cumplir objetivos respetando restricciones dadas.",
+    "c": "No necesita objetivos porque los deduce en tiempo real.",
+    "d": "Depende totalmente de la supervisión humana continuada."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Autonomía",
+    "porque_correcta": "El temario define autonomía como autocontrol orientado a objetivos dentro de límites dados.",
+    "porque_erroneas": {
+      "a": "Debe respetar restricciones del usuario/entorno.",
+      "c": "Los objetivos se establecen; puede refinarlos, no inventarlos.",
+      "d": "Autonomía implica baja supervisión."
+    },
+    "resumen": "Autonomía = auto-gestión con metas y restricciones."
+  }
+},
+{
+  "pregunta": "Mediante aprendizaje automático, un sistema puede…",
+  "opciones": {
+    "a": "Inferir automáticamente el propósito del usuario a partir del contexto.",
+    "b": "Suprimir la necesidad de datos de entrada.",
+    "c": "Garantizar decisiones perfectas sin error alguno.",
+    "d": "Eliminar todos los mecanismos de inferencia basados en reglas."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Aprender propósito",
+    "porque_correcta": "El PDF destaca que el ML permite derivar el propósito sin programación explícita.",
+    "porque_erroneas": {
+      "b": "Necesita datos (ejemplos) para aprender.",
+      "c": "Nunca hay garantía de perfección total.",
+      "d": "Puede convivir con reglas; no las elimina."
+    },
+    "resumen": "El ML descubre intención y reduce programación manual."
+  }
+},
+{
+  "pregunta": "En un sistema distribuido, la transparencia implica que…",
+  "opciones": {
+    "a": "Los recursos remotos se perciben como locales para el usuario.",
+    "b": "Cada nodo debe mostrar su dirección IP al usuario final.",
+    "c": "El usuario debe conocer la topología completa para interactuar.",
+    "d": "La distribución física se hace visible para facilitar la depuración."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Transparencia en sistemas distribuidos",
+    "porque_correcta": "El sistema oculta la distribución y los recursos parecen locales.",
+    "porque_erroneas": {
+      "b": "Transparencia oculta detalles como IPs.",
+      "c": "El usuario no necesita conocer topología.",
+      "d": "Depuración interna no es objetivo de la transparencia para el usuario."
+    },
+    "resumen": "Transparencia = ocultar la repartición de recursos."
+  }
+},
+{
+  "pregunta": "¿Cuál de las siguientes opciones describe la interacción con un sistema distribuido con transparencia total?",
+  "opciones": {
+    "a": "El usuario debe especificar qué servidor manejará cada petición.",
+    "b": "El entorno decide el nodo óptimo y el usuario lo percibe como un único sistema.",
+    "c": "Las operaciones fallidas siempre se comunican explicando el nodo remoto fallido.",
+    "d": "Es imposible migrar objetos o procesos sin que el usuario lo especifique."
+  },
+  "respuesta": "b",
+  "explicacion": {
+    "concepto": "Interacción transparente",
+    "porque_correcta": "Transparencia total hace que el sistema parezca uno solo, decidiendo internamente dónde procesar.",
+    "porque_erroneas": {
+      "a": "Forzar elección rompe la transparencia.",
+      "c": "Los detalles del nodo fallido se ocultan para mantener la abstracción.",
+      "d": "La migración debe ser transparente para el usuario."
+    },
+    "resumen": "Usuario ve un servicio unificado; la orquestación es interna."
+  }
+},
+{
+  "pregunta": "El desarrollador de un sistema inteligente debe considerar, entre otros factores…",
+  "opciones": {
+    "a": "Explicabilidad y personalización para adaptarse a cada usuario.",
+    "b": "Únicamente la eficiencia energética, ya que es lo que más valora el usuario.",
+    "c": "Revelar todos los detalles internos para asegurar transparencia total.",
+    "d": "Evitar cualquier forma de personalización para no complicar la interfaz."
+  },
+  "respuesta": "a",
+  "explicacion": {
+    "concepto": "Explicabilidad y personalización",
+    "porque_correcta": "El PDF subraya que un sistema debe explicar su funcionamiento y adaptarse al usuario.",
+    "porque_erroneas": {
+      "b": "La eficiencia es importante pero no lo único.",
+      "c": "Mostrar detalles técnicos confunde y reduce usabilidad.",
+      "d": "La personalización mejora satisfacción y utilidad."
+    },
+    "resumen": "Explicabilidad + adaptación al usuario = claves de diseño usable."
+  }
+}
+
+
+
+]
