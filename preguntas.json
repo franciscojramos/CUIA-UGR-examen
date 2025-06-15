@@ -2504,7 +2504,287 @@
     },
     "resumen": "Explicabilidad + adaptación al usuario = claves de diseño usable."
   }
-}
+},
+  {
+    "pregunta": "¿Qué define, en sentido estricto, a un sistema de Realidad Aumentada (RA)?",
+    "opciones": {
+      "a": "Sustituir por completo la percepción del mundo real por un entorno virtual.",
+      "b": "Mezclar elementos virtuales con la escena real, en registro espacial y en tiempo real.",
+      "c": "Mostrar únicamente super-textos flotantes sobre una fotografía estática.",
+      "d": "Renderizar modelos 3D sin ninguna referencia a la cámara del usuario."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Definición de RA",
+      "porque_correcta": "La RA combina (1) entorno real, (2) elementos virtuales alineados espacialmente (registro) y (3) actualización en tiempo real.",
+      "porque_erroneas": {
+        "a": "Esa es la definición clásica de realidad virtual, no aumentada.",
+        "c": "Una foto estática no cumple el requisito de tiempo real ni de interacción continua.",
+        "d": "Renderizar 3D aislado no mezcla mundos, por lo que no es RA."
+      },
+      "resumen": "RA = Real + Virtual + Registro + Tiempo real :contentReference[oaicite:0]{index=0}"
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes problemas técnicos es considerado EL reto central para lograr una RA convincente?",
+    "opciones": {
+      "a": "Reducir la tasa de frames por segundo por debajo de 15 fps.",
+      "b": "Alinear con precisión los objetos virtuales respecto al mundo real (registro).",
+      "c": "Garantizar que la interfaz sea solo texto para evitar distracciones.",
+      "d": "Limitar el campo de visión (FOV) para mejorar la nitidez."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Problema de registro",
+      "porque_correcta": "El ‘registration’ exige superponer gráficos EXACTAMENTE donde deberían estar en el espacio físico; pequeños errores rompen la ilusión.",
+      "porque_erroneas": {
+        "a": "Se busca *aumentar* la tasa de refresco, no reducirla.",
+        "c": "La interfaz puede ser visual, sonora, háptica… el reto no es el canal sino la alineación.",
+        "d": "Un FOV pequeño empeora la inmersión; no es un objetivo."
+      },
+      "resumen": "Sin un registro estable y preciso, la RA se percibe ‘flotante’ o falsa."
+    }
+  },
+  {
+    "pregunta": "Las soluciones ‘video see-through’ se caracterizan por...",
+    "opciones": {
+      "a": "Combinar la vista real captada por cámara con gráficos en una misma señal de vídeo.",
+      "b": "Usar prismas ópticos transparentes que proyectan los gráficos sobre la retina sin tapar la realidad.",
+      "c": "Requerir marcadores impresos para funcionar obligatoriamente.",
+      "d": "Bloquear por completo la visión del entorno, igual que los visores VR."
+    },
+    "respuesta": "a",
+    "explicacion": {
+      "concepto": "Video see-through vs optical see-through",
+      "porque_correcta": "En VST la cámara filma la escena real, el render mezcla capas y la pantalla muestra el vídeo sintético al usuario.",
+      "porque_erroneas": {
+        "b": "Eso describe el enfoque ‘optical see-through’.",
+        "c": "Los marcadores son *una* técnica de seguimiento, no una obligación del VST.",
+        "d": "Bloquear la visión entera sería VR, no RA."
+      },
+      "resumen": "VST = cámara + composición digital + display; la realidad se ve como vídeo enriquecido."
+    }
+  },
+  {
+    "pregunta": "¿Qué ventaja principal ofrecen los marcadores fiduciales (tipo QR/ARToolKit) frente al ‘tracking’ puramente visual sin marcadores?",
+    "opciones": {
+      "a": "Mejoran la privacidad al encriptar los datos de la cámara.",
+      "b": "Facilitan la estimación precisa y robusta de la pose (posición y orientación) de la cámara.",
+      "c": "Eliminan la necesidad de registro espacial.",
+      "d": "Permiten funcionar sin cámara, usando sólo sensores inerciales."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Seguimiento basado en marcadores",
+      "porque_correcta": "Los patrones geométricos conocidos simplifican la detección y aportan referencias matemáticas para calcular la pose con alta fiabilidad.",
+      "porque_erroneas": {
+        "a": "La privacidad no está directamente relacionada.",
+        "c": "Seguimiento y registro son complementarios, no excluyentes.",
+        "d": "Siguen necesitando cámara para detectar el marcador."
+      },
+      "resumen": "Marcador = ‘ancla’ visual => tracking robusto rápido."
+    }
+  },
+  {
+    "pregunta": "En aplicaciones educativas, la RA se valora porque...",
+    "opciones": {
+      "a": "Suprime la interacción física con el entorno real.",
+      "b": "Incrementa la motivación al desplegar información contextual sobre objetos reales.",
+      "c": "Limita la sobrecarga cognitiva eliminando todo estímulo visual adicional.",
+      "d": "Obliga a los estudiantes a usar dispositivos costosos de realidad virtual."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "RA en educación",
+      "porque_correcta": "Al anclar contenido digital (modelos 3D, etiquetas, simulaciones) sobre el objeto real, se potencia la comprensión y el interés.",
+      "porque_erroneas": {
+        "a": "La RA precisamente *combina* lo físico y lo virtual, no lo separa.",
+        "c": "Añade estímulos; la clave es que sean relevantes, no eliminarlos.",
+        "d": "Puede funcionar con móviles/tablets — no exige cascos VR caros."
+      },
+      "resumen": "RA = aprendizaje activo + contexto enriquecido :contentReference[oaicite:1]{index=1}"
+    }
+  },
+  {
+    "pregunta": "¿Cuál NO es un desafío típico al diseñar una interfaz de usuario para RA en exterior?",
+    "opciones": {
+      "a": "Gestión del brillo y legibilidad bajo luz solar.",
+      "b": "Registro estable pese a la vibración del dispositivo.",
+      "c": "Seguridad: no distraer peligrosamente al usuario.",
+      "d": "Reducir la latencia a cero absoluto (0 ms), algo físicamente imposible."
+    },
+    "respuesta": "d",
+    "explicacion": {
+      "concepto": "Retos de UX en RA outdoor",
+      "porque_correcta": "La meta realista es *minimizar* latencia (<20-30 ms), no llegar a 0 ms (imposible por límites físicos).",
+      "porque_erroneas": {
+        "a": "El sol puede ‘quemar’ la pantalla y ocultar superposiciones.",
+        "b": "Los temblores degradan el registro; hay que filtrarlos.",
+        "c": "Hay riesgo de distracción en vías públicas."
+      },
+      "resumen": "UX-RA exterior = sol, vibraciones, seguridad… no magia de latencia cero."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes problemas NO suele derivarse de un diseño pobre de la interfaz de usuario?",
+    "opciones": {
+      "a": "Ralentiza el aprendizaje del sistema.",
+      "b": "Disminuye la productividad al obligar al usuario a tareas innecesarias.",
+      "c": "Aumenta la probabilidad de que el usuario cometa errores.",
+      "d": "Incrementa la fidelidad del cliente y, por tanto, las ventas."
+    },
+    "respuesta": "d",
+    "explicacion": {
+      "concepto": "Consecuencias de una UI mal diseñada",
+      "porque_correcta": "Las ventas y la fidelidad CAEN cuando la UI es mala; el enunciado plantea justo lo contrario.",
+      "porque_erroneas": {
+        "a": "Las diapositivas indican que el usuario \"pasa mucho tiempo entendiendo el funcionamiento\" → aprendizaje más lento. :contentReference[oaicite:0]{index=0}",
+        "b": "Un flujo de trabajo forzado reduce la productividad. :contentReference[oaicite:1]{index=1}",
+        "c": "Los errores aumentan, algo crítico en sistemas de misión crítica. :contentReference[oaicite:2]{index=2}"
+      },
+      "resumen": "Los efectos negativos típicos son: aprendizaje lento, más errores y menor productividad (¡no al revés!)."
+    }
+  },
+  {
+    "pregunta": "Para que una UI sea considerada *efectiva* según las transparencias, además de ser útil y usable debe ser…",
+    "opciones": {
+      "a": "Invisible (imperceptible para el usuario).",
+      "b": "Totalmente automática.",
+      "c": "Usada por su público objetivo.",
+      "d": "Gráfica (GUI)."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Efectividad de la UI: útil, usable y usada",
+      "porque_correcta": "La propia diapositiva de «Efectividad de la UI» incluye *Used* como tercer requisito. :contentReference[oaicite:3]{index=3}",
+      "porque_erroneas": {
+        "a": "Ser invisible puede ayudar, pero no se menciona como criterio de efectividad.",
+        "b": "La automatización no garantiza usabilidad ni utilidad.",
+        "d": "Puede existir UI de texto igualmente efectiva."
+      },
+      "resumen": "Útil + Usable + Usada = UI efectiva."
+    }
+  },
+  {
+    "pregunta": "¿Qué rasgo distingue a las *Surface User Interfaces* (SUI) de otros tipos de interfaz ubicua?",
+    "opciones": {
+      "a": "Integran entrada y salida en objetos tangibles físicos.",
+      "b": "Utilizan superficies auto-iluminadas que actúan simultáneamente como pantalla y dispositivo de control.",
+      "c": "No incorporan elementos gráficos, sólo señales sonoras.",
+      "d": "Dependen exclusivamente de sensores de presencia y no de contacto directo."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "SUI: superficies auto-iluminadas con control directo",
+      "porque_correcta": "La diapositiva de «Interfaz en superficie» indica justamente ese uso de superficies que muestran y captan interacción. :contentReference[oaicite:4]{index=4}",
+      "porque_erroneas": {
+        "a": "Eso describe más bien a las TUI (Tangible User Interfaces).",
+        "c": "Las SUI son, por definición, visuales.",
+        "d": "Sí pueden usar sensores táctiles o de presencia, pero no \"exclusivamente\"."
+      },
+      "resumen": "Las SUI fusionan pantalla y control en la misma superficie iluminada."
+    }
+  },
+  {
+    "pregunta": "Elegir la afirmación **falsa** sobre las *Tangible User Interfaces* (TUI):",
+    "opciones": {
+      "a": "Fusionan representación y control en un mismo objeto físico.",
+      "b": "Reducen la separación entre el mundo real y el virtual.",
+      "c": "Siempre distinguen claramente entre dispositivos de entrada y de salida.",
+      "d": "El usuario interactúa principalmente mediante gestos sobre objetos reales."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Características de las TUI",
+      "porque_correcta": "Las TUI justamente *no* diferencian entrada y salida: el objeto tangible cumple ambas funciones. :contentReference[oaicite:5]{index=5}",
+      "porque_erroneas": {
+        "a": "Es una de sus definiciones.",
+        "b": "Horizonte de uso: disminuir la brecha real–virtual.",
+        "d": "El gesto sobre el objeto es el mecanismo de interacción."
+      },
+      "resumen": "Las TUI eliminan la distinción clara entrada-salida, contrario a la opción c."
+    }
+  },
+  {
+    "pregunta": "¿Cuál NO es un criterio citado al diseñar un *modelo de usuario* en HCI implícita?",
+    "opciones": {
+      "a": "Adquisición implícita o explícita.",
+      "b": "Modelo estático o dinámico.",
+      "c": "Nivel de realismo gráfico en la representación del avatar.",
+      "d": "Modelo genérico o específico de aplicación."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Criterios del modelo de usuario",
+      "porque_correcta": "Las diapositivas enumeran implícita/explícita, tipo de usuario, estático/dinámico y genérico/específico; el realismo gráfico no aparece. :contentReference[oaicite:6]{index=6}",
+      "porque_erroneas": {
+        "a": "Sí es un criterio (cómo se recoge la info).",
+        "b": "Otro criterio (si varía con el tiempo).",
+        "d": "Criterio de alcance del modelo."
+      },
+      "resumen": "La apariencia gráfica del avatar no forma parte de estos criterios."
+    }
+  },
+  {
+    "pregunta": "Una dificultad citada para construir el *contexto humano* de un usuario es…",
+    "opciones": {
+      "a": "La precisión ilimitada de los sensores disponibles.",
+      "b": "El razonamiento cualitativo e impredecible del usuario.",
+      "c": "La ausencia total de no determinismo en el entorno.",
+      "d": "Que los usuarios nunca cambian de estado de ánimo durante la interacción."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Dificultades del modelo de usuario",
+      "porque_correcta": "La lámina sobre «Dificultades» menciona explícitamente el razonamiento cualitativo y la indecisión del usuario. :contentReference[oaicite:7]{index=7}",
+      "porque_erroneas": {
+        "a": "El problema real es *precisión limitada*, no ilimitada.",
+        "c": "Sí existe no determinismo (lo contrario de lo que dice la opción).",
+        "d": "Los estados de ánimo *sí* cambian y complican el modelado."
+      },
+      "resumen": "El comportamiento humano es impredecible → reto para el contexto humano."
+    }
+  },
+  {
+    "pregunta": "En un *Ubiquitous User Interface* (UUI) se recomienda **no**…",
+    "opciones": {
+      "a": "Ocultar estados internos que cambien el comportamiento ante la misma entrada.",
+      "b": "Ofrecer mecanismos sencillos de deshacer acciones.",
+      "c": "Solicitar la atención constante del usuario para cada paso.",
+      "d": "Integrar notificaciones en el entorno físico."
+    },
+    "respuesta": "c",
+    "explicacion": {
+      "concepto": "Principios de diseño de una UUI (sin distracción)",
+      "porque_correcta": "La lista de requisitos enfatiza «sin distracción»; no debe reclamar atención continua. :contentReference[oaicite:8]{index=8}",
+      "porque_erroneas": {
+        "a": "Eliminar estados ocultos es deseable.",
+        "b": "Deshacer fácil → reduce el miedo a interactuar.",
+        "d": "Integrar notificaciones es parte de la filosofía UUI."
+      },
+      "resumen": "Una UUI debe ser lo menos intrusiva posible."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones sintetiza mejor la evolución histórica de la HCI, según las diapositivas?",
+    "opciones": {
+      "a": "De la codificación exclusivamente verbal a sistemas sin interfaz visible gracias a la IA.",
+      "b": "De sistemas centrados en la computadora a sistemas centrados en el usuario y su contexto.",
+      "c": "De interfaces gráficas a interfaces basadas únicamente en línea de comandos.",
+      "d": "De entornos colaborativos a entornos estrictamente individuales."
+    },
+    "respuesta": "b",
+    "explicacion": {
+      "concepto": "Historia de la HCI",
+      "porque_correcta": "Las transparencias muestran la transición hacia GUI y luego HCI moderna ‘user-centred’. :contentReference[oaicite:9]{index=9}",
+      "porque_erroneas": {
+        "a": "Nunca se abandona por completo la representación visual.",
+        "c": "Ocurrió justo al revés (línea de comandos → GUI).",
+        "d": "La colaboración es cada vez más frecuente."
+      },
+      "resumen": "La gran tendencia: del foco en la máquina al foco en el usuario (y su contexto)."
+    }
+  }
 
 
 
